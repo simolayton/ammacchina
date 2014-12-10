@@ -33,7 +33,7 @@ if(mysql_num_rows($query))//&gt;0)
 else
 {
 	// altrimenti esce scritta a video questa stringa di errore
-	echo "non ti sei registrato con successo"; 
+	echo "non ti sei loggato con successo"; 
 }
 
 ?>
