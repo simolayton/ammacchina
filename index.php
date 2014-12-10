@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>AMMacchina</title>
+    	<head>
+        	<title>AMMacchina</title>
 	</head>
 	
-    <body>
+	<br>
+	<br>
+	<br>
+	
+    	<body>
 	
 	<header>
-        <div style="text-align: center">
-            <h1><img src="1500.png" width="600" height="250" />
-        </div>
-    </header>
+        	<div style="text-align: center">
+            		<h1><img src="1500.png" width="600" height="250" />
+        	</div>
+	 </header>
 	
 	<br>
 	<br>
