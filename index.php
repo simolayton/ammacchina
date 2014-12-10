@@ -23,7 +23,7 @@
 		<form method="post" action="php/login.php">
 		
 			<input type="hidden" name="cmd" value="login"/>
-			<label for="user">Username</label>
+			<label for="user">Username prova</label>
 			<input type="text" name="username" id="username"/>
 			<br>
 			<br>
