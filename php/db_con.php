@@ -1,7 +1,7 @@
 <?php
 
 //connessione al nostro database
-$connessione_al_server=mysql_connect("users","mameliSimone","macaco861");
+$connessione_al_server=mysql_connect("localhost","mameliSimone","macaco861");
 // ip locale, login e password
 if(!$connessione_al_server)
 {
