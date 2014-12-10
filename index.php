@@ -58,7 +58,7 @@
 			<input type="password" name="password" id="password"/> 
 			<br>
 			<br>
-			<input type="submit" value="Login"/>
+			<button class="button" type="submit" name="cmd"  value="Login">Login</button>
 		
 		</form>
 	</div>
@@ -68,7 +68,7 @@
 	<br>
 	
 	<div style="text-align: center">
-		<button class="button" type="submit" name="cmd"  value="Login">Login</button>
+		<a href="README.md"><i>#CREDENZIALI</a> : SitoProgettoAMM2014 : AMMacchina *Simone Mameli</i>
 	</div>
 	
 	</body>
