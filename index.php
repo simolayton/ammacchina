@@ -11,12 +11,6 @@
 			padding: 1.3em 3em;
 			background: #004a80;
 			border-radius: 25px;
-			-moz-transition: opacity 0.25s ease-in-out;
-			-webkit-transition: opacity 0.25s ease-in-out;
-			-o-transition: opacity 0.25s ease-in-out;
-			-ms-transition: opacity 0.25s ease-in-out;
-			transition: opacity 0.25s ease-in-out;
-
 			text-decoration: none;
 			font-weight: 200;
 			color: #FFF;
