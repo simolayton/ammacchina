@@ -28,7 +28,7 @@ if(mysql_num_rows($query))//&gt;0)
 	// Nella variabile SESSION associo TRUE al valore logged
 	$_SESSION["logged"] =true;  
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
-	header("location:php/prova.php"); 
+	header("location:prova.php"); 
 }
 else
 {
