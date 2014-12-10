@@ -9,7 +9,7 @@ if(!$connessione_al_server)
 	die ('Non riesco a connettermi: errore '.mysql_error());
 }
 
-$db_selected=mysql_select_db("users",$connessione_al_server);
+$db_selected=mysql_select_db("amm14_mameliSimone",$connessione_al_server);
 // dove io ho scritto "prova" andrà inserito il nome del db
 if(!$db_selected)
 {
