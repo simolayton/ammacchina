@@ -37,6 +37,15 @@
 		
 		</form>
 	</div>
+	
+	<br>
+	<br>
+	<br>
+	
+	<div style="text-align: center">
+		<a href="README.md"><i>#CREDENZIALI</a> : SitoProgettoAMM2014 : AMMacchina *Simone Mameli</i>
+	</div>
+	
 	</body>
 	
 </html>
