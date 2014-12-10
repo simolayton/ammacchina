@@ -4,16 +4,16 @@ ammacchina
 
 SITO PROGETTO AMM 2014 SIMONE MAMELI 
 
-==========
+====================================
 
 CREDENZIALI
 
 Dipendente
-  username: -
-  passowrd: -
+  username  : -
+  passoword : -
   
 Cliente
-  username: -
-  passowrd: -
+  username  : -
+  passoword : -
 
-==========
+==============
