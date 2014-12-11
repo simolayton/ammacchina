@@ -10,7 +10,9 @@ $_SESSION["username"]=$_POST["username"];
 $_SESSION["password"]=$_POST["password"]; 
 //per selezionare nel db l'utente e pw che abbiamo appena scritto nel log
 
-$query = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."'") or DIE('query non riuscita'.mysql_error());
+$querydip = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='dipendente'") or DIE('query non riuscita'.mysql_error());
+
+$querycli = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='dipendente'") or DIE('query non riuscita'.mysql_error());
 
 //if($_POST["username"] = "username" && $_POST["password"] = "password")
 //{
@@ -21,19 +23,28 @@ $query = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."
 // Quelli dentro la variabile POST. username e password.
 
 //se c'è una persona con quel nome nel db allora loggati
-if(mysql_num_rows($query))//&gt;0)
+if(mysql_num_rows($querydip))//&gt;0)
 {   
 	// metto i risultati dentro una variabile di nome $row
-	$row = mysql_fetch_assoc($query); 
+	$row = mysql_fetch_assoc($querydip); 
 	// Nella variabile SESSION associo TRUE al valore logged
 	$_SESSION["logged"] =true;  
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
 	header("location:prova.php"); 
 }
+else if(mysql_num_rows($querycli))//&gt;0)
+{   
+	// metto i risultati dentro una variabile di nome $row
+	$row = mysql_fetch_assoc($querycli); 
+	// Nella variabile SESSION associo TRUE al valore logged
+	$_SESSION["logged"] =true;  
+	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
+	header("location:prova1.php"); 
+}
 else
 {
 	// altrimenti esce scritta a video questa stringa di errore
-	echo "non ti sei loggato con successo"; 
+	echo "ERRORE :  Credenziali non corrette."; 
 }
 
 ?>
