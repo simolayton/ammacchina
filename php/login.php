@@ -70,6 +70,10 @@ else
 		
 		<body>
 		
+		<br>
+		<br>
+		<br>
+		
 		<header>
         		<div style="text-align: center">
             			<h1><img src="../1500.png" width="600" height="250" />
@@ -86,7 +90,7 @@ else
 		<br>
 		<br>
 		
-		<form action="https://spano.sc.unica.it/amm2014/mameliSimone/index.php">
+		<form action="spano.sc.unica.it/amm2014/mameliSimone/index.php">
 		
 			<button class="button" type="submit" name="cmd"  value="tornaindietro">Torna indietro</button>
 		
