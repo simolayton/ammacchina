@@ -12,7 +12,7 @@ $_SESSION["password"]=$_POST["password"];
 
 $querydip = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='dipendente'") or DIE('query non riuscita'.mysql_error());
 
-$querycli = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='dipendente'") or DIE('query non riuscita'.mysql_error());
+$querycli = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='cliente'") or DIE('query non riuscita'.mysql_error());
 
 //if($_POST["username"] = "username" && $_POST["password"] = "password")
 //{
