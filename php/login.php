@@ -46,11 +46,55 @@ else
 	
 	?>
 	
-	<h1><b> prova </b></h1>
+	<html>
+    		<head>
+    		
+        	<style>
+			.button
+			{
+			display: inline-block;
+			padding: 1.3em 3em;
+			background: #004a80;
+			border-radius: 25px;
+			text-decoration: none;
+			font-weight: 200;
+			color: #FFF;
+			border: 0px solid white;
+			margin: auto;
+			margin-top: 20px;
+			display: block;
+			}
+			
+		</style>
+		
+		<body>
+		
+		<header>
+        		<div style="text-align: center">
+            			<h1><img src="1500.png" width="600" height="250" />
+        		</div>
+	 	</header>
+	 	
+	 	<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<form action="https://spano.sc.unica.it/amm2014/mameliSimone/index.php">
+		
+			<button class="button" type="submit" name="cmd"  value="Login">Login</button>
+		
+		</form>
+		
+		</body>
+	</head>
+	
+	</html>
 	
 	<?php
 	// altrimenti esce scritta a video questa stringa di errore
-	echo "ERRORE :  Credenziali non corrette."; 
+	//echo "ERRORE :  Credenziali non corrette."; 
 }
 
 ?>
