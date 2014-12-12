@@ -72,7 +72,6 @@ else
 		
 		<br>
 		<br>
-		<br>
 		
 		<header>
         		<div style="text-align: center">
@@ -90,7 +89,7 @@ else
 		<br>
 		<br>
 		
-		<form action="spano.sc.unica.it/amm2014/mameliSimone/index.php">
+		<form action="../index.php">
 		
 			<button class="button" type="submit" name="cmd"  value="tornaindietro">Torna indietro</button>
 		
