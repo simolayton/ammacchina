@@ -48,6 +48,8 @@ else
 	
 	<html>
     		<head>
+    		<title>AMMacchina</title>
+    		<link rel="shortcut icon" href="img/icona.ico">
     		
         	<style>
         	
@@ -74,7 +76,7 @@ else
 		
 		<header>
         		<div style="text-align: center">
-            			<h1><img src="../1500.png" width="600" height="250" />
+            			<h1><img src="../img/1500.png" width="600" height="250" />
         		</div>
 	 	</header>
 	 	
