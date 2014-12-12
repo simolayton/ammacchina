@@ -30,7 +30,7 @@ if(mysql_num_rows($querydip))//&gt;0)
 	// Nella variabile SESSION associo TRUE al valore logged
 	$_SESSION["logged"] =true;  
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
-	header("location:prova.php"); 
+	header("location:dipendente.php"); 
 }
 else if(mysql_num_rows($querycli))//&gt;0)
 {   
@@ -39,7 +39,7 @@ else if(mysql_num_rows($querycli))//&gt;0)
 	// Nella variabile SESSION associo TRUE al valore logged
 	$_SESSION["logged"] =true;  
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
-	header("location:prova1.php"); 
+	header("location:cliente.php"); 
 }
 else
 {
@@ -101,8 +101,6 @@ else
 	</html>
 	
 	<?php
-	// altrimenti esce scritta a video questa stringa di errore
-	//echo "ERRORE :  Credenziali non corrette."; 
 }
 
 ?>
