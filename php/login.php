@@ -43,6 +43,12 @@ else if(mysql_num_rows($querycli))//&gt;0)
 }
 else
 {
+	
+	?>
+	
+	<h1><b> prova </b></h1>
+	
+	<?php
 	// altrimenti esce scritta a video questa stringa di errore
 	echo "ERRORE :  Credenziali non corrette."; 
 }
