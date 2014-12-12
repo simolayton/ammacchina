@@ -49,7 +49,7 @@ else
 	<html>
     		<head>
     		<title>AMMacchina</title>
-    		<link rel="shortcut icon" href="img/icona.ico">
+    		<link rel="shortcut icon" href="../img/icona.ico">
     		
         	<style>
         	
