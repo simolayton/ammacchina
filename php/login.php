@@ -50,7 +50,8 @@ else
     		<head>
     		
         	<style>
-			.button
+        	
+		.button
 			{
 			display: inline-block;
 			padding: 1.3em 3em;
@@ -71,7 +72,7 @@ else
 		
 		<header>
         		<div style="text-align: center">
-            			<h1><img src="1500.png" width="600" height="250" />
+            			<h1><img src="../1500.png" width="600" height="250" />
         		</div>
 	 	</header>
 	 	
@@ -80,10 +81,14 @@ else
 		<br>
 		<br>
 		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		
 		<form action="https://spano.sc.unica.it/amm2014/mameliSimone/index.php">
 		
-			<button class="button" type="submit" name="cmd"  value="Login">Login</button>
+			<button class="button" type="submit" name="cmd"  value="tornaindietro">Torna indietro</button>
 		
 		</form>
 		
