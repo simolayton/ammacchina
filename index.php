@@ -2,7 +2,7 @@
 <html>
     	<head>
         	<title>AMMacchina</title>
-        	
+        	<link rel="shortcut icon" href="icona.ico">
         	<style>
         	
 			.button
