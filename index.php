@@ -29,7 +29,7 @@
 	
 	<header>
         	<div style="text-align: center">
-            		<h1><img src="img/1500.png" width="600" height="250" />
+            		<img src="img/1500.png" width="600" height="250"/>
         	</div>
 	 </header>
 	
@@ -62,7 +62,7 @@
 	<br>
 	
 	<div style="text-align: center">
-		<a href="README.md"><i>#CREDENZIALI</a> : SitoProgettoAMM2014 : AMMacchina *Simone Mameli</i>
+		<a href="README.md"><i>#CREDENZIALI</a> : SitoProgettoAMM2014 - AMMacchina *Simone Mameli</i>
 	</div>
 	
 	</body>
