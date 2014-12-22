@@ -72,8 +72,6 @@ else
 		
 		<body>
 		
-		<br>
-		
 		<header>
         		<div style="text-align: center">
             			<h1><img src="../img/1500.png" width="600" height="250" />
