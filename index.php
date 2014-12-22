@@ -62,7 +62,7 @@
 	<br>
 	
 	<div style="text-align: center">
-		<a href="README.md"><i>#CREDENZIALI</a> : SitoProgettoAMM2014 - AMMacchina *Simone Mameli</i>
+		<a href="README.md">Leggimi!</a>
 	</div>
 	
 	</body>
