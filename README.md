@@ -1,10 +1,36 @@
 ammacchina
 
-==========
+==================================================================================================================
 
 SITO PROGETTO AMM 2014 SIMONE MAMELI 
 
-====================================
+==================================================================================================================
+
+Descrizione
+
+L'applicazione gestisce le funzionalità di un autoconcessionario. Gli utenti sono divisi in clienti e dipendenti.
+
+I dipendenti possono:
+
+1. Visualizzare il parco auto
+2. Aggiungere veicoli al parco auto
+3. Rimuovere veicoli dal parco auto
+4. Visualizzare lo storico acquisti di tutti gli utenti
+5. Gestire la propria anagrafica
+
+I clienti possono:
+
+1. Visualizzare il parco auto
+2. Acquistare auto
+3. Avere informazioni sull'auto
+4. Chiedere informazioni mediante form.
+
+Requisiti soddisfatti
+
+Utilizzo di HTML e CSS : 
+Utilizzo di PHP e MySQL :
+Utilizzo del pattern MVC :
+Due ruoli (cliente e dipendente) : 
 
 CREDENZIALI
 
@@ -16,4 +42,4 @@ Cliente
   username  : -
   passoword : -
 
-==============
+==================================================================================================================
