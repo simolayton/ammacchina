@@ -72,18 +72,20 @@ else
 		
 		<body>
 		
+		<br>
+		
 		<header>
         		<div style="text-align: center">
             			<h1><img src="../img/1500.png" width="600" height="250" />
         		</div>
 	 	</header>
 	 	
-	 	<br>
 		<br>
 		<br>
 		<div style="text-align: center">
 			<font color="red"><h3> ATTENZIONE : Credenziali NON corrette </h3></font>
 		</div>
+		
 		<br>
 		<br>
 		
