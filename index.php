@@ -58,11 +58,9 @@
 	</div>
 	
 	<br>
-	<br>
-	<br>
 	
 	<div style="text-align: center">
-		<a href="README.md">Leggimi!</a>
+		<a href="README.md">Accesso al progetto.</a>
 	</div>
 	
 	</body>
