@@ -46,70 +46,60 @@ else
 	
 	?>
 	
+	<!DOCTYPE html>
 	<html>
-	<head>
-	<body>
+    	<head>
+        	<title>AMMacchina</title>
+        	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        	<link rel="stylesheet" type="text/css" href="css/style.css">
+        	<link rel="shortcut icon" href="img/icona.ico">
+	</head>
+	
+	<br>
+	
+    	<body>
+	
+	<header>
+        	<div style="text-align: center">
+            		<img src="img/1500.png" width="600" height="250"/>
+        	</div>
+	 </header>
+	
+	<br>
+	<br>
+	<div style="text-align: center">
+		<h3>L'ID utente o la password sono errati.</h3>
+	</div>
+	<br>
+	<br>
 	
 	<div style="text-align: center">
-		<font color="red"><h3> ATTENZIONE : Credenziali NON corrette </h3></font>
+	
+		<form method="post" action="php/login.php">
+		
+			<input type="hidden" name="cmd" value="login"/>
+			<label for="user">Username</label>
+			<input type="text" name="username" id="username"/>
+			<br>
+			<br>
+			<label for="password">Password </label>
+			<input type="password" name="password" id="password"/> 
+			<br>
+			<br>
+			<button id="button" type="submit" name="cmd"  value="Login">Login</button>
+		
+		</form>
+	</div>
+	
+	<br>
+	
+	<div style="text-align: center">
+		<a href="README.md">Accesso al progetto.</a>
 	</div>
 	
 	</body>
-	</head>
+	
 	</html>
-	
-	
-	<!-- <html>
-    		<head>
-    		<title>AMMacchina</title>
-    		<link rel="shortcut icon" href="../img/icona.ico">
-    		
-        	<style>
-        	
-		.button
-			{
-			display: inline-block;
-			padding: 1.3em 3em;
-			background: #004a80;
-			border-radius: 25px;
-			text-decoration: none;
-			font-weight: 200;
-			color: #FFF;
-			border: 0px solid white;
-			margin: auto;
-			margin-top: 20px;
-			display: block;
-			}
-			
-		</style>
-		
-		<body>
-		
-		<header>
-        		<div style="text-align: center">
-            			<h1><img src="../img/1500.png" width="600" height="250" />
-        		</div>
-	 	</header>
-	 	
-		<br>
-		<br>
-		<div style="text-align: center">
-			<font color="red"><h3> ATTENZIONE : Credenziali NON corrette </h3></font>
-		</div>
-		
-		<br>
-		<br>
-		
-		<form action="../index.php">
-		
-			<button class="button" type="submit" name="cmd"  value="tornaindietro">Torna indietro</button>
-		
-		</form>
-		
-		</body>
-	</head>
-	
-	</html>-->
 	
 	<?php
 } 
