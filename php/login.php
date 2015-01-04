@@ -61,7 +61,7 @@ else
 	
 	<header>
         	<div style="text-align: center">
-            		<img src="img/1500.png" width="600" height="250"/>
+            		<img src="../img/1500.png" width="600" height="250"/>
         	</div>
 	 </header>
 	
@@ -75,7 +75,7 @@ else
 	
 	<div style="text-align: center">
 	
-		<form method="post" action="php/login.php">
+		<form method="post" action="../php/login.php">
 		
 			<input type="hidden" name="cmd" value="login"/>
 			<label for="user">Username</label>
