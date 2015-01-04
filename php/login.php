@@ -68,7 +68,7 @@ else
 	<br>
 	<br>
 	<div style="text-align: center">
-		<h4>L'ID utente o la password sono errati.</h4>
+		<h4><font color=”#CC0000”>L'ID utente o la password sono errati.</font></h4>
 	</div>
 	<br>
 	<br>
