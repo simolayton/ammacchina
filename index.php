@@ -7,9 +7,9 @@
         	<link rel="shortcut icon" href="img/icona.ico">
 	</head>
 	
+    	<body>
+    	
 	<br>
-	
-    	<body
 	
 	<header>
         	<div style="text-align: center">
