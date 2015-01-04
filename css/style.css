@@ -20,8 +20,17 @@
 
 #page
 {
+	
 	margin: auto;
 	background-color: #0066FF;
+	
+	border-radius: 12px;
+	border-top: 4px groove #FFFFFF;
+	border-left: 4px groove #FFFFFF;
+	border-right: 4px ridge #FFFFFF;
+	border-bottom: 4px ridge #FFFFFF;
+
+	box-shadow: 8px 8px 20px black;
 }
 
 #header
