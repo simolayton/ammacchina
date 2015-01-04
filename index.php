@@ -41,7 +41,7 @@
 	<br>
 	<br>
 	
-	<div style="text-align: center">
+	<div style="text-align: center" div id="button">
 	
 		<form method="post" action="php/login.php">
 		
@@ -54,7 +54,7 @@
 			<input type="password" name="password" id="password"/> 
 			<br>
 			<br>
-			<button class="button" type="submit" name="cmd"  value="Login">Login</button>
+			<button id="button" type="submit" name="cmd"  value="Login">Login</button>
 		
 		</form>
 	</div>
