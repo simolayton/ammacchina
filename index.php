@@ -41,7 +41,7 @@
 	<br>
 	<br>
 	
-	<div style="text-align: center>
+	<div style="text-align: center">
 	
 		<form method="post" action="php/login.php">
 		
