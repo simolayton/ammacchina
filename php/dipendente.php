@@ -49,6 +49,8 @@
                         <b><i>Simone Mameli</i></b>
                 </div>
                 
+                <br>
+                <br>
                 
                 <div style="text-align: center">
                         <a id="htmlval" href="http://validator.w3.org/check?uri=referer">HTML Valid</a>
