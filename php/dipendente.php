@@ -31,16 +31,9 @@
 					<li><a href="index.php">Home</a></li>
 				</ul>
                 </div>-->
-				<br>
-				<br>
-				<br>
-	<div style="text-align: center" div id="content">
-	
-		<div class="input-form">
-				<h3>Login</h3>
-		</div>
-	</div>
-				
+	<br>
+	<br>
+	<br>
 	<br>
 	<br>
 	<br>
