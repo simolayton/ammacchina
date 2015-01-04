@@ -17,7 +17,7 @@
                     <div id="page">
                 <header>
                     <div style="text-align: center" id="header">
-                        <h1><img src="../img/1500.png"/> <!-- <font face="Times New Roman">AMMacchina</font></h1> -->
+                        <img src="../img/1500.png" alt="" width="600" height="250"/> <!-- <font face="Times New Roman">AMMacchina</font></h1> -->
                     </div>
                     <div style="text-align: center" div id="top">
                         <p>Accesso al sistema</p>
