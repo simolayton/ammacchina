@@ -26,13 +26,13 @@
 #header
 {
 	padding: 10px 0px 10px 0px;
-	background-color: #FFFFFF;
+	background-color: #004a80;
 	border-radius: 5px 5px 5px 5px;
 }
 
 #top
 {
-	background-color: #FFFFFF;
+	background-color: #004a80;
 	border-radius: 5px 5px 5px 5px;
 }
 
@@ -43,9 +43,9 @@
 
 #content
 {
-	border-left: 5px solid #0066FF;
-	border-right: 5px solid #0066FF;
-	border-bottom: 5px solid #0066FF;
+	border-left: 5px solid #004a80;
+	border-right: 5px solid #004a80;
+	border-bottom: 5px solid #004a80;
 	border-radius: 0px 0px 5px 5px;
 }
 
@@ -57,6 +57,6 @@
 #footer
 {
 	padding: 10px 0px 10px 0px;
-	background-color: #FFFFFF;
+	background-color: #004a80;
 	border-radius: 5px 5px 5px 5px;
 }
