@@ -9,7 +9,7 @@
 	
 	<br>
 	
-    	<body>
+    	<body
 	
 	<header>
         	<div style="text-align: center">
