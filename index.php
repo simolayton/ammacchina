@@ -30,11 +30,11 @@
 		<form method="post" action="php/login.php">
 		
 			<input type="hidden" name="cmd" value="login"/>
-			<label for="user">Username</label>
+			<label for="username"> Username </label>
 			<input type="text" name="username" id="username"/>
 			<br>
 			<br>
-			<label for="password">Password </label>
+			<label for="password"> Password </label>
 			<input type="password" name="password" id="password"/> 
 			<br>
 			<br>
