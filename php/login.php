@@ -47,6 +47,19 @@ else
 	?>
 	
 	<html>
+	<head>
+	<body>
+	
+	<div style="text-align: center">
+		<font color="red"><h3> ATTENZIONE : Credenziali NON corrette </h3></font>
+	</div>
+	
+	</body>
+	</head>
+	</html>
+	
+	
+	<!-- <html>
     		<head>
     		<title>AMMacchina</title>
     		<link rel="shortcut icon" href="../img/icona.ico">
@@ -96,9 +109,9 @@ else
 		</body>
 	</head>
 	
-	</html>
+	</html>-->
 	
 	<?php
-}
+} 
 
 ?>
