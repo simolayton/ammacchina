@@ -5,24 +5,6 @@
         	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         	<link rel="stylesheet" type="text/css" href="css/style.css">
         	<link rel="shortcut icon" href="img/icona.ico">
-        	<!-- <style>
-        	
-			.button
-			{
-			display: inline-block;
-			padding: 1.3em 3em;
-			background: #004a80;
-			border-radius: 25px;
-			text-decoration: none;
-			font-weight: 200;
-			color: #FFF;
-			border: 0px solid white;
-			margin: auto;
-			margin-top: 20px;
-			display: block;
-			}
-			
-		</style>-->
 	</head>
 	
 	<br>
