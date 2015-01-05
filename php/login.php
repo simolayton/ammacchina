@@ -5,11 +5,6 @@ session_start();
  // Include il file di connessione al database
 //include("db_con.php");
 
-
-$pagina_redirect = $_COOKIE["redirect"];
-setcookie("redirect", $pagina_redirect, time()+300);
-
-
 //connessione al nostro database
 $connessione_al_server=mysql_connect("localhost","mameliSimone","macaco861");
 // ip locale, login e password
@@ -31,20 +26,6 @@ $_SESSION["username"]=$_POST["username"];
 // con questo associo il parametro username che mi è stato passato dal form alla variabile SESSION password
 $_SESSION["password"]=$_POST["password"]; 
 //per selezionare nel db l'utente e pw che abbiamo appena scritto nel log
-
-
-if(isset($_COOKIE["redirect"]))
-{
-    $pagina_cli = $_COOKIE["redirect"];
-}
-else
-{
-    $pagina_cli = "cliente.php";
-}
-
-
-
-
 
 $querydip = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='dipendente'") or DIE('query non riuscita'.mysql_error());
 
@@ -78,20 +59,9 @@ else if(mysql_num_rows($querycli))//&gt;0)
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
 	header("location:cliente.php"); 
 	
-	setcookie("tipo_utente", 3);
-	
 }
 else
 {
-        
-            setcookie("errlogin", 1);
-            $pagina_login = "../index.php";
-            header("Location:".$pagina_login);
-        
-	
-	
-	
-	
 ?>
 	<!DOCTYPE html>
 	<html>
