@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 
+<?php
+	setcookie("redirect", null);
+	if($_COOKIE['tipo_utente']==3)
+	{
+?>
+
 <html>
 
         <head>
@@ -64,3 +70,14 @@
 </body>
 
 </html>
+
+<?
+}
+else
+{
+    $pagina_login = "../index.php";
+    $pagina_redirect = "cliente.php";
+    setcookie("redirect", $pagina_redirect, time()+300);
+	header("Location:".$pagina_login);
+}
+?>
