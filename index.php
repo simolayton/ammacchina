@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 
+<?php
+	if(!isset($_COOKIE["tipo_utente"]))
+	{
+?>
+
 <html>
     	<head>
         	<title>AMMacchina</title>
@@ -53,3 +58,12 @@
 	</body>
 	
 </html>
+
+<?php 
+}
+else
+{
+    $pagina_login = "php/logout.php";
+	header("Location:".$pagina_login);
+}
+?>
