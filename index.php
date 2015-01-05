@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+<?php
+	setcookie("redirect", null);
+	if(!isset($_COOKIE["tipo_utente"]))
+	{
+?>
+
 <html>
     	<head>
         	<title>AMMacchina</title>
@@ -52,3 +59,14 @@
 	</body>
 	
 </html>
+
+<?
+}
+else
+{
+    $pagina_login = "php/logout.php";
+    $pagina_redirect = "index.php";
+    setcookie("redirect", $pagina_redirect, time()+300);
+header("Location:".$pagina_login);
+}
+?>
