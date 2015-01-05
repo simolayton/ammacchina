@@ -1,7 +1,7 @@
 <?php
 if(!isset($_COOKIE["redirect"]))
 {
-    $pagina_login = "login.php";
+    $pagina_login = "../index.php";
 }
 else
 {
