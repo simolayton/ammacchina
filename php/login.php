@@ -34,15 +34,13 @@ $_SESSION["password"]=$_POST["password"];
 
 if(isset($_COOKIE["redirect"]))
 {
-    $pagina_adm = $_COOKIE["redirect"];
-    $pagina_ven = $_COOKIE["redirect"];
-    $pagina_com = $_COOKIE["redirect"];
+    $pagina_dip = $_COOKIE["redirect"];
+    $pagina_cli = $_COOKIE["redirect"];
 }
 else
 {
-    $pagina_adm = "Amministratore/Home.php";
-    $pagina_ven = "Venditore/Home.php";
-    $pagina_com = "Compratore/Home.php";
+    $pagina_dip = "dipendente.php";
+    $pagina_cli = "cliente.php";
 }
 
 
@@ -67,6 +65,12 @@ if(mysql_num_rows($querydip))//&gt;0)
 	$_SESSION["logged"] =true;  
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
 	header("location:dipendente.php"); 
+	
+        setcookie("tipo_utente", 2);
+        setcookie("utente", $id);
+        header("Location:".$pagina_dip);
+	
+	
 }
 else if(mysql_num_rows($querycli))//&gt;0)
 {   
@@ -76,6 +80,10 @@ else if(mysql_num_rows($querycli))//&gt;0)
 	$_SESSION["logged"] =true;  
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
 	header("location:cliente.php"); 
+	
+	setcookie("tipo_utente", 3);
+        setcookie("utente", $id);
+        header("Location:".$pagina_cli);
 }
 else
 {
