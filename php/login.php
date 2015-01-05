@@ -3,7 +3,24 @@
 // come sempre prima cosa, aprire la sessione 
 session_start();
  // Include il file di connessione al database
-include("db_con.php");
+//include("db_con.php");
+
+//connessione al nostro database
+$connessione_al_server=mysql_connect("localhost","mameliSimone","macaco861");
+// ip locale, login e password
+if(!$connessione_al_server)
+{
+	// questo apparirà solo se ci sarà un errore
+	die ('Non riesco a connettermi: errore '.mysql_error());
+}
+$db_selected=mysql_select_db("amm14_mameliSimone",$connessione_al_server);
+// dove io ho scritto "prova" andrà inserito il nome del db
+if(!$db_selected)
+{
+	// se la connessione non andrà a buon fine apparirà questo messaggio
+	die ('Errore nella selezione del database: errore '.mysql_error()); 
+}
+
 // con questo associo il parametro username che mi è stato passato dal form alla variabile SESSION username
 $_SESSION["username"]=$_POST["username"]; 
 // con questo associo il parametro username che mi è stato passato dal form alla variabile SESSION password
