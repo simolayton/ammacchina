@@ -5,6 +5,11 @@ session_start();
  // Include il file di connessione al database
 //include("db_con.php");
 
+
+$pagina_redirect = $_COOKIE["redirect"];
+setcookie("redirect", $pagina_redirect, time()+300);
+
+
 //connessione al nostro database
 $connessione_al_server=mysql_connect("localhost","mameliSimone","macaco861");
 // ip locale, login e password
@@ -60,6 +65,9 @@ else if(mysql_num_rows($querycli))//&gt;0)
 }
 else
 {
+	setcookie("errlogin", 1);
+        $pagina_login = "Login.php";
+        header("Location:".$pagina_login);
 	
 	?>
 	
