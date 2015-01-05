@@ -32,6 +32,20 @@ $_SESSION["username"]=$_POST["username"];
 $_SESSION["password"]=$_POST["password"]; 
 //per selezionare nel db l'utente e pw che abbiamo appena scritto nel log
 
+if(isset($_COOKIE["redirect"]))
+{
+    $pagina_adm = $_COOKIE["redirect"];
+    $pagina_ven = $_COOKIE["redirect"];
+    $pagina_com = $_COOKIE["redirect"];
+}
+else
+{
+    $pagina_adm = "Amministratore/Home.php";
+    $pagina_ven = "Venditore/Home.php";
+    $pagina_com = "Compratore/Home.php";
+}
+
+
 $querydip = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='dipendente'") or DIE('query non riuscita'.mysql_error());
 
 $querycli = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."' AND password ='".$_POST["password"]."' AND ruolo='cliente'") or DIE('query non riuscita'.mysql_error());
