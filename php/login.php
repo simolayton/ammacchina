@@ -66,7 +66,7 @@ else if(mysql_num_rows($querycli))//&gt;0)
 else
 {
 	setcookie("errlogin", 1);
-        $pagina_login = "Login.php";
+        $pagina_login = "../index.php";
         header("Location:".$pagina_login);
 	
 	?>
