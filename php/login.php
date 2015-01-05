@@ -79,12 +79,6 @@ else if(mysql_num_rows($querycli))//&gt;0)
 }
 else
 {
-	setcookie("errlogin", 1);
-        $pagina_login = "../index.php";
-        header("Location:".$pagina_login);
-	
-	?>
-	
 	<!DOCTYPE html>
 	<html>
     	<head>
@@ -141,6 +135,10 @@ else
 	</html>
 	
 	<?php
+	
+		setcookie("errlogin", 1);
+        $pagina_login = "../index.php";
+        header("Location:".$pagina_login);
 } 
 
 ?>
