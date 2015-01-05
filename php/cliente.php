@@ -76,8 +76,8 @@
 }
 else
 {
-    $pagina_login = "cliente.php";
-    $pagina_redirect = "../index.php";
+    $pagina_login = "../index.php";
+    $pagina_redirect = "cliente.php";
     setcookie("redirect", $pagina_redirect, time()+300);
 	header("Location:".$pagina_login);
 }
