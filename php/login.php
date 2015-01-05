@@ -61,6 +61,7 @@ else if(mysql_num_rows($querycli))//&gt;0)
 }
 else
 {
+?>
 	<!DOCTYPE html>
 	<html>
     	<head>
@@ -115,7 +116,7 @@ else
 	</body>
 	
 	</html>
-	
+
 	<?php
 
 } 
