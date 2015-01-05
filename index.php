@@ -61,11 +61,9 @@
 
 <?
 }
-else
+
 {
     $pagina_login = "php/logout.php";
-    $pagina_redirect = "index.php";
-    setcookie("redirect", $pagina_redirect, time()+300);
-header("Location:".$pagina_login);
+	header("Location:".$pagina_login);
 }
 ?>
