@@ -77,6 +77,9 @@ else if(mysql_num_rows($querycli))//&gt;0)
 	$_SESSION["logged"] =true;  
 	// e mando per esempio ad una pagina esempio.php// in questo caso rimanderò ad una pagina prova.php
 	header("location:cliente.php"); 
+	
+	setcookie("tipo_utente", 3);
+	
 }
 else
 {
