@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <?php
-	setcookie("redirect", null);
 	if(!isset($_COOKIE["tipo_utente"]))
 	{
 ?>
