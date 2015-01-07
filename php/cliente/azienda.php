@@ -3,7 +3,7 @@
 <html>
 
         <head>
-            	<script language="javascript">
+            	<script language="JavaScript">
 			if(history.length>0)history.forward()
 		</script>
         
