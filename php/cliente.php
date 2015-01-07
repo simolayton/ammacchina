@@ -20,7 +20,13 @@
                     </div>
                     
                     <div style="text-align: center" id="top">
-                        <p>Benvenuto! ZONA CLIENTE</p>
+                    
+                    <button id="button" type="submit" name="cmd"  value="home">Home</button>
+                    <button id="button" type="submit" name="cmd"  value="parcoauto">Parco Auto</button>
+                    <button id="button" type="submit" name="cmd"  value="azienda">Azienda</button>
+                    <button id="button" type="submit" name="cmd"  value="contatti">Contatti</button>
+                    <button id="button" type="submit" name="cmd"  value="logout">Logout</button>
+
                     </div>
                     
                 </header>
