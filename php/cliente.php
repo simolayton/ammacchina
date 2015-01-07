@@ -31,6 +31,18 @@
 					<ul>
 						<li><a href="index.php">Home</a></li>
 					</ul>
+					<ul>
+						<li><a href="index.php">Parco Auto</a></li>
+					</ul>
+					<ul>
+						<li><a href="index.php">Azienda</a></li>
+					</ul>
+					<ul>
+						<li><a href="index.php">Contatti</a></li>
+					</ul>
+					<ul>
+						<li><a href="index.php">Logout</a></li>
+					</ul>
                 </div>
                 
                 
