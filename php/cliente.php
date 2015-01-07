@@ -26,10 +26,10 @@
 		<div style="text-align: center" div id="menu">
                     <ul>
                         <li class="current_page"><a href="#" id="home">Home</a></li>
-                        <li><a href="parcoauto.php" id="parcoauto">Chi siamo</a></li>
-                        <li><a href="azienda.php" id="azienda">Istruzioni</a></li>
-                        <li><a href="contatti.php" id="contatti">Ricerca</a></li>
-                        <li><a href="logout.php" id="logout">Ricerca</a></li>
+                        <li><a href="parcoauto.php" id="parcoauto">Parco Auto</a></li>
+                        <li><a href="azienda.php" id="azienda">Azienda</a></li>
+                        <li><a href="contatti.php" id="contatti">Contatti</a></li>
+                        <li><a href="logout.php" id="logout">Logout</a></li>
                     </ul>
                 </div>
 		</div>
