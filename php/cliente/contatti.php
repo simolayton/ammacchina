@@ -43,11 +43,9 @@
 
                             <p>Via Ospedale 72, Cagliari</p>
 				
-			    <table width="600" height="400">	
-			    <td>
+			    <frame width="600" height="400">	
                             	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d642.6530510159041!2d9.114043400000018!3d39.22241150036271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e7340581eb77df%3A0x4ae977f197f31069!2sVia+Ospedale%2C+72%2C+09124+Cagliari!5e1!3m2!1sit!2sit!4v1419077660963"></iframe>
-                            </td>
-                            </table>
+                            </frame>
                             
                             <h3>Contattaci:</h3>
 
