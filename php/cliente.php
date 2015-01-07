@@ -25,10 +25,11 @@
 
 		<div style="text-align: center" div id="menu">
                     <ul>
-                        <li><a href="Home.php" id="home">Home</a></li>
-                        <li><a href="Chi_siamo.php" id="chi_siamo">Chi siamo</a></li>
-                        <li class="current_page"><a href="#" id="istruzioni">Istruzioni</a></li>
-                        <li><a href="Ricerca.php" id="ricerca">Ricerca</a></li>
+                        <li class="current_page"><a href="#" id="home">Home</a></li>
+                        <li><a href="parcoauto.php" id="parcoauto">Chi siamo</a></li>
+                        <li><a href="azienda.php" id="azienda">Istruzioni</a></li>
+                        <li><a href="contatti.php" id="contatti">Ricerca</a></li>
+                        <li><a href="logout.php" id="logout">Ricerca</a></li>
                     </ul>
                 </div>
 		</div>
