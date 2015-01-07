@@ -20,7 +20,7 @@
                     </div>
                     
                     <div style="text-align: center" id="top">
-                    	<button id="button" type="submit" name="cmd"  value="home">Home</button>
+                    	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
 		    
 
 		<div id="menu">
