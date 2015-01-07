@@ -21,13 +21,14 @@
                     
                     <div style="text-align: left" id="top">
                     	<button id="button" type="submit" name="cmd"  value="home">Home</button>
-
+			</div>
+			<!--
                     <div style="text-align: center" id="top">
                     	<button id="button" type="submit" name="cmd"  value="home">Home1</button>
 
                     <div style="text-align: right" id="top">
                     	<button id="button" type="submit" name="cmd"  value="home">Home2</button>
-                    </div>
+                    </div>-->
                     
                 </header>
                 
