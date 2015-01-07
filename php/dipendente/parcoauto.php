@@ -32,8 +32,8 @@
                     <ul>
                         <li><a href="home.php" id="home">Home</a></li>
                         <li class="current_page"><a href="#" id="parcoauto">Parco Auto</a></li>
-                        <li><a href="aggiungi.php" id="aggiungi">Aggiungi Auto</a></li>
-                        <li><a href="modifica.php" id="modifica">Modifica Auto</a></li>
+                        <li><a href="aggiungiauto.php" id="aggiungiauto">Aggiungi Auto</a></li>
+                        <li><a href="modificaauto.php" id="modificaauto">Modifica Auto</a></li>
                         <li><a href="../php/logout.php" id="logout">Logout</a></li>
                     </ul>
                 </div>
