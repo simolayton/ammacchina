@@ -12,6 +12,11 @@
 		</body>
 		
 		</html>
+		
+		<?php
+			$pagina_index = "../index.php";
+			header("Location:".$pagina_index);
+		?>
 
 
 
