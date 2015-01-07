@@ -65,7 +65,7 @@
                 <div style="text-align: center">
                         <a id="htmlval" href="http://validator.w3.org/check?uri=referer">HTML Valid</a>
 
-                        <a id="cssval" href="http://jigsaw.w3.org/css-validator/check/refer">CSS Valid</a>
+                        <a id="cssval" href="http://jigsaw.w3.org/css-validator/check/refer" target="_blank">CSS Valid</a>
                 </div>
         </div>
         </div>
