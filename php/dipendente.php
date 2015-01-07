@@ -28,15 +28,30 @@
                         <p>Benvenuto! ZONA DIPENDENTE</p>
                     </div>
                     
+                <header>
+                
+                    <div style="text-align: center" id="header">
+                        <img src="../img/1500.png" alt="" width="600" height="250"/>
+                    </div>
+                    
+                    <div style="text-align: center" id="top">
+                    	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
+		    
+
+		<div style="text-align: center" id="menu">
+                    <ul>
+                        <li class="current_page"><a href="#" id="home">Home</a></li>
+                        <li><a href="dipendente/parcoauto.php" id="parcoauto">Parco Auto</a></li>
+                        <li><a href="dipendente/aggiungi.php" id="aggiungi">Aggiungi Auto</a></li>
+                        <li><a href="dipendente/modifica.php" id="modifica">Modifica/Rimuovi Auto</a></li>
+                        <li><a href="../php/logout.php" id="logout">Logout</a></li>
+                    </ul>
+                </div>
+		</div>
+		    
+		    
+		    
                 </header>
-		
-		<!--
-			<div style="text-align: center" div id="sidebar1">
-				<h2>Navigazione</h2>
-				<ul>
-					<li><a href="index.php">Home</a></li>
-				</ul>
-                </div>-->
 	<br>
 	<br>
 	<br>
