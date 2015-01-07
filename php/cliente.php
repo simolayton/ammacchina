@@ -26,7 +26,7 @@
                     
                 </header>
                 
-                <div style="text-align: center" div id="sidebar1">
+                <div style="text-align: left" div id="sidebar1">
 			<h2>Navigazione</h2>
 					<ul>
 						<li><a href="index.php">Home</a></li>
