@@ -27,7 +27,7 @@
                     	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
 		    
 
-		<div style="text-align: center" div id="menu">
+		<div style="text-align: center" id="menu">
                     <ul>
                         <li class="current_page"><a href="#" id="home">Home</a></li>
                         <li><a href="cliente/parcoauto.php" id="parcoauto">Parco Auto</a></li>
