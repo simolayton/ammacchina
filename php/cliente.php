@@ -21,22 +21,19 @@
                     
                     <div style="text-align: center" id="top">
                     
-                    <button id="button" type="submit" name="cmd"  value="home">Home</button>
-                    </div>
-                    <div style="text-align: center" id="top">
-                    <button id="button" type="submit" name="cmd"  value="parcoauto">Parco Auto</button>
-                    </div>
-                    <div style="text-align: center" id="top">
-                    <button id="button" type="submit" name="cmd"  value="azienda">Azienda</button>
-                    </div>
-                    <div style="text-align: center" id="top">
-                    <button id="button" type="submit" name="cmd"  value="contatti">Contatti</button>
-                    </div>
-                    <div style="text-align: center" id="top">
-                    <button id="button" type="submit" name="cmd"  value="logout">Logout</button>
+                    	<button id="button" type="submit" name="cmd"  value="home">Home</button>
                     </div>
                     
                 </header>
+                
+                <div style="text-align: center" div id="sidebar1">
+			<h2>Navigazione</h2>
+					<ul>
+						<li><a href="index.php">Home</a></li>
+					</ul>
+                </div>
+                
+                
 		
 		<!--
 			<div style="text-align: center" div id="sidebar1">
