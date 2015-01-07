@@ -29,7 +29,7 @@
 
 		<div style="text-align: center" id="menu">
                     <ul>
-                        <li><a href="home.php"id="home">Home</a></li>
+                        <li><a href="home.php" id="home">Home</a></li>
                         <li><a href="parcoauto.php" id="parcoauto">Parco Auto</a></li>
                         <li class="current_page"><a href="#" id="azienda">Azienda</a></li>
                         <li><a href="contatti.php" id="contatti">Contatti</a></li>
