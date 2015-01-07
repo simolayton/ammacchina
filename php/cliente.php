@@ -22,11 +22,18 @@
                     <div style="text-align: center" id="top">
                     
                     <button id="button" type="submit" name="cmd"  value="home">Home</button>
+                    </div>
+                    <div style="text-align: center" id="top">
                     <button id="button" type="submit" name="cmd"  value="parcoauto">Parco Auto</button>
+                    </div>
+                    <div style="text-align: center" id="top">
                     <button id="button" type="submit" name="cmd"  value="azienda">Azienda</button>
+                    </div>
+                    <div style="text-align: center" id="top">
                     <button id="button" type="submit" name="cmd"  value="contatti">Contatti</button>
+                    </div>
+                    <div style="text-align: center" id="top">
                     <button id="button" type="submit" name="cmd"  value="logout">Logout</button>
-
                     </div>
                     
                 </header>
