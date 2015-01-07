@@ -5,8 +5,8 @@
         <head>
                 <title>AMMacchina</title>
         	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        	<link rel="stylesheet" type="text/css" href="../css/style.css">
-        	<link rel="shortcut icon" href="../img/icona.ico">
+        	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+        	<link rel="shortcut icon" href="../../img/icona.ico">
         </head>
         
 	<body>
@@ -16,7 +16,7 @@
                 <header>
                 
                     <div style="text-align: center" id="header">
-                        <img src="../img/1500.png" alt="" width="600" height="250"/>
+                        <img src="../../img/1500.png" alt="" width="600" height="250"/>
                     </div>
                     
                     <div style="text-align: center" id="top">
