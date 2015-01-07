@@ -19,40 +19,10 @@
                         <img src="../img/1500.png" alt="" width="600" height="250"/>
                     </div>
                     
-                    </header>
-                    
-                    <div style="text-align: left" id="top">
-                    	<button id="button" type="submit" name="cmd"  value="home">Home</button>
-			</div>
-			
                     <div style="text-align: center" id="top">
-                    	<button id="button" type="submit" name="cmd"  value="home">Home1</button>
-
-                    <div style="text-align: right" id="top">
-                    	<button id="button" type="submit" name="cmd"  value="home">Home2</button>
-                    </div>
-                    
-                
-                
-                <!-- <div style="text-align: left" div id="sidebar1">
-			<h3><a href="index.php">Home</a></h3>
-			<br>
-			<h3><a href="index.php">Parco Auto</a></h3>
-			<br>
-			<h3><a href="index.php">Azienda</a></h3>
-			<br>
-			<h3><a href="index.php">Contatti</a></h3>
-			<br>
-			<h3><a href="index.php">Logout</a></h3>
-			<br> 
-                </div>-->
-               
-			<div style="text-align: center" div id="sidebar1">
-				<h2>Navigazione</h2>
-				<ul>
-					<li><a href="index.php">Home</a></li>
-				</ul>
-                	</div>
+                    	<button id="button" type="submit" name="cmd"  value="home">Home</button>
+		    </div>
+                </header>
 	<br>
 	<br>
 	<br>
