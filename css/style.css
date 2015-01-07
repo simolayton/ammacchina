@@ -48,7 +48,11 @@
 
 #sidebar1
 {
-
+	width: 150px;
+	padding: 0px;
+	background-color: #FFFFFF; 
+	background-repeat: repeat-y;
+	border-radius: 5px 5px 5px 5px;
 }
 
 #content
