@@ -21,7 +21,7 @@
                     
                     <div style="text-align: center" id="top">
                     	<button id="button" type="submit" name="cmd"  value="home">Home</button>
-		    </div>
+		    
 
 		<div id="menu">
                     <ul>
@@ -31,7 +31,7 @@
                         <li><a href="Ricerca.php" id="ricerca">Ricerca</a></li>
                     </ul>
                 </div>
-		    
+		</div>
 		    
 		    
 		    
