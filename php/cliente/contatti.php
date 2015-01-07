@@ -37,7 +37,7 @@
                 </header>
                 
                 
-                <div style="text-align: center" div id="content">
+                <div style="text-align: center">
                 
                             <h3>Dove ci trovi:</h3>
 
@@ -47,7 +47,7 @@
                             
                             <h3>Contattaci:</h3>
 
-                            <p>Tel: <a href="callto:info@ammacchina.com">070123456</a> - E-mail: <a href="mailto:smameli13@gmail.com">info@ammacchina.com</a></p>
+                            <p>Tel: <a href="callto:info@ammacchina.com">078112345</a> - E-mail: <a href="mailto:smameli13@gmail.com">info@ammacchina.com</a></p>
                 </div>
                 
 	<br>
