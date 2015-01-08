@@ -74,7 +74,7 @@
               <table id="table-content">
                  <tr>
                      <td>
-                         <table id="table-vis">
+                         <table id="table-content">
                              <tr>
                                  <td><img src="../../Immagini/noimg.png" alt="No image aviable"></td>
                              </tr>
