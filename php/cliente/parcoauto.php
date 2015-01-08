@@ -71,7 +71,7 @@
          
          ?> -->
              <br>
-	<div style="text-align: center">
+	
              <table>
                  <tr>
                      <td>
@@ -86,6 +86,7 @@
                    </td>
 
                    <td>
+                   <div style="text-align: center">
                        <table id="table-vis">
                            <tr>
                                <td>Marca:</td><td><?echo"$row->marca";?></td>
