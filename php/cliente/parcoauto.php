@@ -71,8 +71,8 @@
          
          ?> -->
              <br>
-
-             <table center>
+	<div style="text-align: center">
+             <table>
                  <tr>
                      <td>
                          <table id="table-vis">
@@ -109,7 +109,7 @@
                            </td>
                        </tr>
                    </table>
-        
+        </div>
                 
                 
 	<br>
