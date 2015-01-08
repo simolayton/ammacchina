@@ -61,7 +61,7 @@
                 
                 
             <?php
-            while($row2 = mysql_fetch_object($queryvis))
+            while($row = mysql_fetch_object($queryvis))
             {
             ?>
          
@@ -74,7 +74,7 @@
                                  <td><img src="../../Immagini/noimg.png" alt="No image aviable"></td>
                              </tr>
          		<tr>
-                               <td>Prezzo: &nbsp;<?echo"$row2->prezzo";?> &euro;</td>
+                               <td>Prezzo: &nbsp;<?echo"$row->prezzo";?> &euro;</td>
                            </tr>
                        </table>
                    </td>
@@ -83,22 +83,22 @@
                    
                        <table id="table-vis">
                            <tr>
-                               <td>Marca:</td><td><?echo"$row2->marca";?></td>
+                               <td>Marca:</td><td><?echo"$row->marca";?></td>
                            </tr>
                            <tr>
-                               <td>Modello:</td><td><?echo"$row2->modello";?></td>
+                               <td>Modello:</td><td><?echo"$row->modello";?></td>
                            </tr>
                            <tr>
-                               <td>Colore:</td><td><?echo"$row2->colore";?></td>
+                               <td>Colore:</td><td><?echo"$row->colore";?></td>
                            </tr>
                                  <tr>
-                                     <td>Anno:</td><td><?echo"$row2->anno";?></td>
+                                     <td>Anno:</td><td><?echo"$row->anno";?></td>
                                  </tr>
                                  <tr>
-                                     <td>Alimentazione:</td><td><?echo"$row2->alimentazione";?></td>
+                                     <td>Alimentazione:</td><td><?echo"$row->alimentazione";?></td>
                                  </tr>
                                    <tr>
-                                       <td>Chilometri:</td><td><?echo"$row2->km";?></td>
+                                       <td>Chilometri:</td><td><?echo"$row->km";?></td>
                                    </tr>
                                </table>
                                
@@ -106,11 +106,13 @@
                            </td>
 
                        </tr>
-                                                           	    <?php
-                            }
-                            ?>
+
 
                    </table>
+                   
+              <?php
+                            }
+                            ?>
 
                 
                 
