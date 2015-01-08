@@ -127,3 +127,19 @@ div#menu li
 	background-color: #004a80;
 	border-radius: 5px 5px 5px 5px;
 }
+
+#table-vis
+{
+    margin-left: 50px;
+}
+
+#table-vis td
+{
+	margin-left: 50px;
+
+	color: #444444;
+
+	width: 200px;
+
+	padding-bottom: 20px;
+}
