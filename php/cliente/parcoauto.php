@@ -71,7 +71,7 @@
                      <td>
                          <table id="table-vis">
                              <tr>
-                                 <td><img src="../../Immagini/noimg.png" alt="No image aviable"></td>
+                                 <td><img src="../../img/pauto.png" alt=""></td>
                              </tr>
          		<tr>
                                <td>Prezzo: &nbsp;<?echo"$row->prezzo";?> &euro;</td>
