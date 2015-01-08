@@ -3,7 +3,7 @@
 <html>
 
         <head>
-            	<script language="javascript">
+            	<script="javascript">
 			if(history.length>0)history.forward()
 		</script>
 		
@@ -72,7 +72,7 @@
          ?> -->
              <br>
 
-             <table align="center">
+             <table ="center">
                  <tr>
                      <td>
                          <table id="table-vis">
