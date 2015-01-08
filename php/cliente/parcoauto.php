@@ -61,7 +61,7 @@
                 
                 
             <?php
-            while($row2 = mysql_fetch_object($queryvis);)
+            while($row2 = mysql_fetch_object($queryvis))
             {
             ?>
          
