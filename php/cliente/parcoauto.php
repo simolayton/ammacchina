@@ -61,15 +61,15 @@
                 
                 
                 
-         if(mysql_num_rows($queryvis)==0)
+         <!-- if(mysql_num_rows($queryvis)==0)
          {
          ?>
          <br><p>Nessun veicolo comprato al momento. Riprova tra poco</p><br><br>
-         <?
-         }
-         while($row = mysql_fetch_object($queryvis))
-         {
-         ?>
+         
+         //}
+         //while($row = mysql_fetch_object($queryvis))
+         
+         ?> -->
              <br>
 
              <table>
