@@ -86,8 +86,9 @@
                    </td>
 
                    <td>
-                   <div style="text-align: center">
+                   
                        <table id="table-vis">
+                       <div style="text-align: center">
                            <tr>
                                <td>Marca:</td><td><?echo"$row->marca";?></td>
                            </tr>
