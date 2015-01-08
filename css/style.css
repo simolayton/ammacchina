@@ -147,7 +147,7 @@ div#menu li
 #table-content
 {
 	width: 100%;
-	min-height: 500px;
+	min-height: 300px;
 
 	table-layout: fixed;
 	border-collapse: collapse;
