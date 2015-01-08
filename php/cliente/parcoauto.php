@@ -71,7 +71,7 @@
          
          ?> -->
              <br>
-             <table>
+              <table id="table-content">
                  <tr>
                      <td>
                          <table id="table-vis">
