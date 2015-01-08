@@ -56,20 +56,20 @@
             	}
             	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='non venduta'") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
-                ?>
                 
                 
                 
                 
-         <!-- if(mysql_num_rows($queryvis)==0)
+                
+         if(mysql_num_rows($queryvis)==0)
          {
          ?>
          <br><p>Nessun veicolo comprato al momento. Riprova tra poco</p><br><br>
+         <?php
+         }
+         while($row = mysql_fetch_object($queryvis))
+         ?>
          
-         //}
-         //while($row = mysql_fetch_object($queryvis))
-         
-         ?> -->
              <br>
               <table id="table-content">
                  <tr>
