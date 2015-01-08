@@ -74,7 +74,7 @@
                                  <td><img src="../../img/pauto.png" width="100" height="70" alt=""></td>
                              </tr>
          		<tr>
-                               <td>Prezzo: &nbsp;<?echo"$row->prezzo";?> &euro;</td>
+                               <td>Prezzo:&nbsp;<?echo"$row->prezzo";?>&euro;</td>
                            </tr>
                        </table>
                    </td>
