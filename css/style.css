@@ -143,3 +143,12 @@ div#menu li
 
 	padding-bottom: 20px;
 }
+
+#table-content
+{
+	width: 100%;
+	min-height: 500px;
+
+	table-layout: fixed;
+	border-collapse: collapse;
+}
