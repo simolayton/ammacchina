@@ -56,12 +56,12 @@
             	}
             	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='non venduta'") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
+                ?>
                 
                 
                 
-                
-                
-            while($row = mysql_fetch_object($queryvis))
+            <?php
+            while($row)
             {
             ?>
          
@@ -106,10 +106,11 @@
                            </td>
 
                        </tr>
-                 	    <?
+
+                   </table>
+                                    	    <?php
                             }
                             ?>
-                   </table>
                 
                 
 	<br>
