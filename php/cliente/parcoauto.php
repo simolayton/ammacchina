@@ -72,7 +72,7 @@
          ?> -->
              <br>
 
-             <table>
+             <table align="center">
                  <tr>
                      <td>
                          <table id="table-vis">
