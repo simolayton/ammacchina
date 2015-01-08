@@ -61,14 +61,9 @@
                 
                 
                 
-         if(mysql_num_rows($queryvis)==0)
-         {
-         ?>
-         <br><p>Nessun veicolo comprato al momento. Riprova tra poco</p><br><br>
-         <?php
-         }
-         while($row = mysql_fetch_object($queryvis))
-         ?>
+            while($row = mysql_fetch_object($queryvis))
+            {
+            ?>
          
              <br>
               <table id="table-content">
@@ -106,6 +101,10 @@
                                        <td>Chilometri:</td><td><?echo"$row->km";?></td>
                                    </tr>
                                </table>
+                               
+                            <?
+                            }
+                            ?>
                            </td>
                        </tr>
                    </table>
