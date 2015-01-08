@@ -103,7 +103,7 @@
                                      <td>Alimentazione:</td><td><?echo"$row->alimentazione";?></td>
                                  </tr>
                                    <tr>
-                                       <td>Chilometri:</td><td><?echo"$row->chilometri";?></td>
+                                       <td>Chilometri:</td><td><?echo"$row->km";?></td>
                                    </tr>
                                </table>
                            </td>
