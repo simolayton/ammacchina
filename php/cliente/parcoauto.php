@@ -75,7 +75,7 @@
              <table>
                  <tr>
                      <td>
-                         <table "center" id="table-vis">
+                         <table=center id="table-vis">
                              <tr>
                                  <td><img src="../../Immagini/noimg.png" alt="No image aviable"></td>
                              </tr>
@@ -87,7 +87,7 @@
 
                    <td>
                    
-                       <table "center" id="table-vis">
+                       <table=center id="table-vis">
                            <tr>
                                <td>Marca:</td><td><?echo"$row->marca";?></td>
                            </tr>
