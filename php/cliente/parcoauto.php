@@ -71,10 +71,10 @@
                      <td>
                          <table id="table-vis">
                              <tr>
-                                 <td><img src="../../img/pauto.png" width="150" height="100" alt=""></td>
+                                 <td><img src="../../img/pauto.png" width="100" height="70" alt=""></td>
                              </tr>
          		<tr>
-                               <td>        Prezzo: &nbsp;<?echo"$row->prezzo";?> &euro;</td>
+                               <td>Prezzo: &nbsp;<?echo"$row->prezzo";?> &euro;</td>
                            </tr>
                        </table>
                    </td>
