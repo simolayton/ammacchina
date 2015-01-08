@@ -71,7 +71,6 @@
          
          ?> -->
              <br>
-	<div style="text-align: center" id="content">
              <table>
                  <tr>
                      <td>
@@ -110,7 +109,6 @@
                            </td>
                        </tr>
                    </table>
-                  </div>
                 
                 
 	<br>
