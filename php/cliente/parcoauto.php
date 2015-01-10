@@ -84,20 +84,20 @@
               
                    <td>
                    <tr>
-                   Modello:</td><td><?echo"$row->modello";?>
-                   Marca:</td><td><?echo"$row->marca";?>
+                   Modello:<?echo"$row->modello";?>
+                   Marca:<?echo"$row->marca";?>
                    Prezzo:&nbsp;<?echo"$row->prezzo";?>&euro;
                    
                   </tr>
                   <tr>
 
-                   Colore:</td><td><?echo"$row->colore";?>
+                   Colore:<?echo"$row->colore";?>
 
-                   Anno:</td><td><?echo"$row->anno";?>
+                   Anno:<?echo"$row->anno";?>
 
-                   Alimentazione:</td><td><?echo"$row->alimentazione";?>
+                   Alimentazione:<?echo"$row->alimentazione";?>
  
-                   Chilometri:</td><td><?echo"$row->km";?>
+                   Chilometri:<?echo"$row->km";?>
                    
                    </tr>
                    </td>
