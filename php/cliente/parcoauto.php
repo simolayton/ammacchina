@@ -76,14 +76,20 @@
 
                    <td>-->
                    
-                   
+                        <table>
+                        
+                        <td>
                    <img src="../../img/pauto.png" width="100" height="70" alt="">
-                   
+                   </td>
+              
+                   <td>
+                   <tr>
+                   Modello:</td><td><?echo"$row->modello";?>
+                   Marca:</td><td><?echo"$row->marca";?>
                    Prezzo:&nbsp;<?echo"$row->prezzo";?>&euro;
                    
-                   Marca:</td><td><?echo"$row->marca";?>
-
-                   Modello:</td><td><?echo"$row->modello";?>
+                  </tr>
+                  <tr>
 
                    Colore:</td><td><?echo"$row->colore";?>
 
@@ -93,12 +99,17 @@
  
                    Chilometri:</td><td><?echo"$row->km";?>
                    
+                   </tr>
+                   </td>
+                   
+                   
+                   
                   
               <?php
                             }
                             ?>
 
-                  <!-- </table> -->
+                   </table>
                    
 
 
