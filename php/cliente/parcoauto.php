@@ -67,21 +67,25 @@
          
              <br>
               <table id="table-content">
-                 <tr>
+                 <!-- <tr>
                      <td>
                          <table id="table-vis">
-                             <tr>
+ 
+                       </table>
+                   </td>
+
+                   <td>-->
+                   
+                       <table id="table-vis">
+                       
+                            <tr>
                                  <td><img src="../../img/pauto.png" width="100" height="70" alt=""></td>
                              </tr>
          		<tr>
                                <td>Prezzo:&nbsp;<?echo"$row->prezzo";?>&euro;</td>
                            </tr>
-                       </table>
-                   </td>
-
-                   <td>
-                   
-                       <table id="table-vis">
+                           
+                           
                            <tr>
                                <td>Marca:</td><td><?echo"$row->marca";?></td>
                            </tr>
