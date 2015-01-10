@@ -76,7 +76,7 @@
 
                    <td>-->
                    
-                       <table align=”center” id="table-vis">
+                       <table align="center" id="table-vis">
                        
                             <tr>
                                  <td><img src="../../img/pauto.png" width="100" height="70" alt=""></td>
