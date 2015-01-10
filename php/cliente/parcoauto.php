@@ -94,7 +94,7 @@
                    
                    <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
 
-                   
+                   <a href="Aggiungi.php?aggiungi=<?echo $row->id?>" id="carrello">Aggiungi al carrello</a>
                   <!-- &nbsp; -->
                    
                   
