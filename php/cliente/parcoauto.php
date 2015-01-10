@@ -76,6 +76,8 @@
 
                    <td>-->
                    
+                   <div style="text-align: center">
+                   
                    <img src="../../img/pauto.png" width="100" height="70" alt="">
                    
                    <?echo"$row->marca";?>
@@ -101,7 +103,7 @@
                             ?>
 
                    
-
+</div>
 
                 
                 
