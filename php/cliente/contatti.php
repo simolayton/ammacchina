@@ -31,7 +31,7 @@
                     <ul>
                         <li><a href="home.php" id="home">Home</a></li>
                         <li><a href="parcoauto.php" id="parcoauto">Parco Auto</a></li>
-                        <li><a href="azienda.php" id="azienda">Azienda</a></li>
+                        <li><a href="cliente/carrello.php" id="carrello">Carrello</a></li>
                         <li class="current_page"><a href="#" id="contatti">Contatti</a></li>
                         <li><a href="../../php/logout.php" id="logout">Logout</a></li>
                     </ul>
