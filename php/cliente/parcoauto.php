@@ -97,8 +97,13 @@
                    
                    
                    <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
+                   
+                   <form method="post" action="mailto:smameli13@gmail.com">
+                   
+                   	<button id="button" type="submit" name="cmd" value="Login">Sono interessato</button>
+                   	
+                   </form>
 
-                   <a href="mailto:smameli13@gmail.com"> Sono interessato </a>
                   <!-- &nbsp; -->
                    
                   
