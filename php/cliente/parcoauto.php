@@ -78,22 +78,22 @@
                    
                    <div style="text-align: center">
                    
-                   <img src="../../img/pauto.png" width="100" height="70" alt="">
+                 	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                   <?echo"$row->marca";?>
-                   
-                   <?echo"$row->modello";?>
-                   
-                   <?echo"$row->colore";?>
-                   
-                    <?echo"$row->alimentazione";?>
-                    
-                    <?echo"$row->euro";?>
-                    
-                   <?echo"$row->anno";?>
+        		 <?echo"$row->marca";?>
+        		 
+        		 <?echo"$row->modello";?>
+        		 
+        		 <?echo"$row->colore";?>
+        		 
+        		  <?echo"$row->alimentazione";?>
+        		  
+        		  <?echo"$row->euro";?>
+        		  
+        		 <?echo"$row->anno";?>
 
-                   <?echo"$row->km";?>
-                   
+        		 <?echo"$row->km";?>
+        		 
                    
                    
                    <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
