@@ -76,40 +76,24 @@
 
                    <td>-->
                    
-                       <table align="center" id="table-vis">
-                       
-                            <tr>
-                                 <td><img src="../../img/pauto.png" width="100" height="70" alt=""></td>
-                             </tr>
-         		<tr>
-                               <td>Prezzo:&nbsp;<?echo"$row->prezzo";?>&euro;</td>
-                           </tr>
-                           
-                           
-                           <tr>
-                               <td>Marca:</td><td><?echo"$row->marca";?></td>
-                           </tr>
-                           <tr>
-                               <td>Modello:</td><td><?echo"$row->modello";?></td>
-                           </tr>
-                           <tr>
-                               <td>Colore:</td><td><?echo"$row->colore";?></td>
-                           </tr>
-                                 <tr>
-                                     <td>Anno:</td><td><?echo"$row->anno";?></td>
-                                 </tr>
-                                 <tr>
-                                     <td>Alimentazione:</td><td><?echo"$row->alimentazione";?></td>
-                                 </tr>
-                                   <tr>
-                                       <td>Chilometri:</td><td><?echo"$row->km";?></td>
-                                   </tr>
-                               </table>
-                               
+                   
+                   <img src="../../img/pauto.png" width="100" height="70" alt="">
+                   
+                   Prezzo:&nbsp;<?echo"$row->prezzo";?>&euro;
+                   
+                   Marca:</td><td><?echo"$row->marca";?>
 
-                           </td>
+                   Modello:</td><td><?echo"$row->modello";?>
 
-                       </tr>
+                   Colore:</td><td><?echo"$row->colore";?>
+
+                   Anno:</td><td><?echo"$row->anno";?>
+
+                   Alimentazione:</td><td><?echo"$row->alimentazione";?>
+ 
+                   Chilometri:</td><td><?echo"$row->km";?>
+                   
+                  
               <?php
                             }
                             ?>
