@@ -97,12 +97,9 @@
                    
                    
                    <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
-                   
-                   <form method="post" action="mailto:smameli13@gmail.com">
-                   
-                   	<button id="button" type="submit">Sono interessato</button>
-                   	
-                   </form>
+
+                   <button class="button" id="button" href="mailto:smameli13@gmail.com">Sono interessato</button>
+
 
                   <!-- &nbsp; -->
                    
