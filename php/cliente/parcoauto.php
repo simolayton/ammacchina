@@ -84,19 +84,21 @@
                    
                    <?echo"$row->modello";?>
                    
+                   <?echo"$row->colore";?>
+                   
+                    <?echo"$row->alimentazione";?>
+                    
+                    <?echo"$row->euro";?>
+                    
                    <?echo"$row->anno";?>
-                   
-                   <?echo"$row->alimentazione";?>
-                   
+
                    <?echo"$row->km";?>
                    
-                   <?echo"$row->euro";?>
                    
-                   <?echo"$row->colore";?>
                    
                    <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
 
-                   <a href="mailto:smameli13@gmail.com"> Contattaci </a>
+                   <a href="mailto:smameli13@gmail.com"> Sono interessato </a>
                   <!-- &nbsp; -->
                    
                   
