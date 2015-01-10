@@ -66,8 +66,8 @@
             ?>
          
              <br>
-              <table id="table-content">
-                 <!-- <tr>
+              <!--<table id="table-content">
+                  <tr>
                      <td>
                          <table id="table-vis">
  
@@ -114,7 +114,7 @@
                             }
                             ?>
 
-                   </table>
+                  <!-- </table> -->
                    
 
 
