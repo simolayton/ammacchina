@@ -90,11 +90,13 @@
                    
                    <?echo"$row->km";?>
                    
+                   <?echo"$row->euro";?>
+                   
                    <?echo"$row->colore";?>
                    
                    <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
 
-                   <a href="Aggiungi.php?aggiungi=<?echo $row->id?>" id="carrello">Aggiungi al carrello</a>
+                   <a href="mailto:smameli13@gmail.com"> Contattaci </a>
                   <!-- &nbsp; -->
                    
                   
