@@ -90,10 +90,10 @@
                    
                    <?echo"$row->colore";?>
                    
-                   <h3><b>Prezzo : </b></h3>&nbsp;<?echo"$row->prezzo";?>&euro;
+                   <h3><b>Prezzo : </b></h3><?echo"$row->prezzo";?>&euro;
 
                    
-                   
+                  <!-- &nbsp; -->
                    
                   
               <?php
