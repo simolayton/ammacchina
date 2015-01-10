@@ -100,7 +100,7 @@
                    
                    <form method="post" action="mailto:smameli13@gmail.com">
                    
-                   	<button id="button" type="submit" name="cmd" value="Login">Sono interessato</button>
+                   	<button id="button" type="submit" name="cmd" value="auto">Sono interessato</button>
                    	
                    </form>
 
