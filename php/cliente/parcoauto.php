@@ -66,15 +66,16 @@
             ?>
          
              <br>
-              <!--<table id="table-content">
+             <!-- <table id="table-content">
                   <tr>
                      <td>
-                         <table id="table-vis">
+                         
  
-                       </table>
+                       
                    </td>
 
                    <td>-->
+                   <table id="table-vis">
                    
                    <div style="text-align: center">
                    
@@ -102,7 +103,7 @@
 
 
                    &nbsp; -->
-                   
+                   </table>
                  </div> 
               <?php
                             }
