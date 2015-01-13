@@ -66,44 +66,40 @@
             ?>
          
              <br>
-             <!-- <table id="table-content">
-                  <tr>
-                     <td>
-                         
- 
-                       
-                   </td>
 
-                   <td>-->
-                   <table id="table-vis">
                    
                    <div style="text-align: center">
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-        		 <?echo"$row->marca";?>
-        		 
-        		 <?echo"$row->modello";?>
-        		 
-        		 <?echo"$row->colore";?>
-        		 
-        		  <?echo"$row->alimentazione";?>
-        		  
-        		  <?echo"$row->euro";?>
-        		  
-        		 <?echo"$row->anno";?>
+                                            <table id="table-vis">
+                                                <tr>
+                                                    <td>Marca:</td><td><?echo"$row->marca";?></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Modello:</td><td><?echo"$row->modello";?></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Colore:</td><td><?echo"$row->colore";?></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Anno:</td><td><?echo"$row->anno";?></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Alimentazione:</td><td><?echo"$row->alimentazione";?></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Chilometri:</td><td><?echo"$row->chilometri";?></td>
+                                                </tr>
+                                            </table>
 
-        		 <?echo"$row->km";?>
-        		 
-                   
-                   
-                   <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
-
-                  <!-- <button class="button" id="button" href="mailto:smameli13@gmail.com">Sono interessato</button>
 
 
-                   &nbsp; -->
-                   </table>
+
+
+
+
+
                  </div> 
               <?php
                             }
