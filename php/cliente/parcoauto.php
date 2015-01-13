@@ -98,10 +98,10 @@
                    
                    <b>Prezzo : </b><?echo"$row->prezzo";?>&euro;
 
-                   <button class="button" id="button" href="mailto:smameli13@gmail.com">Sono interessato</button>
+                  <!-- <button class="button" id="button" href="mailto:smameli13@gmail.com">Sono interessato</button>
 
 
-                  <!-- &nbsp; -->
+                   &nbsp; -->
                    
                  </div> 
               <?php
