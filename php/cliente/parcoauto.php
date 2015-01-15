@@ -72,33 +72,18 @@
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                                            <table id="table-vis">
-                                                <tr>
-                                                    <td>Marca:</td><td><?echo"$row->marca";?></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Modello:</td><td><?echo"$row->modello";?></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Colore:</td><td><?echo"$row->colore";?></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Anno:</td><td><?echo"$row->anno";?></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Alimentazione:</td><td><?echo"$row->alimentazione";?></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Chilometri:</td><td><?echo"$row->km";?></td>
-                                                </tr>
-                                            </table>
+                        Marca:<?echo"$row->marca";?>
+                        
+                        Modello:<?echo"$row->modello";?>
 
+                        Colore:<?echo"$row->colore";?>
+                        Anno:<?echo"$row->anno";?>
 
+                        Alimentazione:<?echo"$row->alimentazione";?>
 
-
-
-
-
+                        Chilometri:<?echo"$row->km";?>
+                        
+                        <button id="button" type="submit" name="cmd" >COMPRA</button>
 
                  </div> 
               <?php
