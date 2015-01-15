@@ -54,7 +54,7 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='non venduta'") or die("query non riuscita".mysql_error());
+            	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata'") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
