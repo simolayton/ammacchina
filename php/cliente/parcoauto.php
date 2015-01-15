@@ -72,18 +72,24 @@
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                        Marca:<?echo"$row->marca";?>
+                        <?echo"$row->marca";?>
                         
-                        Modello:<?echo"$row->modello";?>
-
-                        Colore:<?echo"$row->colore";?>
-                        Anno:<?echo"$row->anno";?>
-
-                        Alimentazione:<?echo"$row->alimentazione";?>
-
-                        Chilometri:<?echo"$row->km";?>
+                        <?echo"$row->modello";?>
                         
-                        <button id="button" type="submit" name="cmd" >COMPRA</button>
+			<?echo"$row->anno";?>
+			
+                        <?echo"$row->colore";?>
+                        
+                        <?echo"$row->alimentazione";?>
+
+                        <?echo"$row->km";?>
+                        
+                        <?echo"$row->euro";?>
+                        
+                        <b>PREZZO : </b><?echo"$row->euro";?>
+                        
+                        
+                        <button id="button" href="https://www.paypal.com/it/home" target="_blank">COMPRA</button>
 
                  </div> 
               <?php
