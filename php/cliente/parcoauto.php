@@ -88,7 +88,9 @@
                         
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
-                        <input type="button" id="button" onclick="'https://www.paypal.com/it/home'" value="COMPRA">
+                        <a href="Aggiungi.php?aggiungi=<?echo $row->id?>" id="button">Aggiungi al carrello</a></td>
+                        
+                        <!-- <input type="button" id="button" onclick="'https://www.paypal.com/it/home'" value="COMPRA"> -->
                         
                  </div> 
               <?php
