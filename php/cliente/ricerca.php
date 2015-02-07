@@ -92,7 +92,7 @@
                                     <br><br><p>Nessun risultato. Clicca <a href="javascript:history.back()">QUI</a> per tornare alla ricerca</p>
                                 <?
                                 }
-                            }
+                            
                                 else
                                 {
                                 	?>
