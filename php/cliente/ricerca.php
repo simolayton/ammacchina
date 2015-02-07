@@ -93,7 +93,7 @@
                                 <?
                                 }
                             
-                                else
+                                else if(mysql_num_rows($queryvis)!=0)
                                 {
                                 	?>
                                 	<br><br>Auto trovata! Guarda sul nostro Parco Auto.
