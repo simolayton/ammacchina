@@ -41,7 +41,7 @@
 		    
 		    
                 </header>
-                
+                <?
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
 
                             if(!$connessione_al_server)
@@ -92,15 +92,15 @@
                                     <br><br><p>Nessun risultato. Clicca <a href="javascript:history.back()">QUI</a> per tornare alla ricerca</p>
                                 <?
                                 }
-                                
+                            }
                                 else
                                 {
                                 	?>
                                 	<br><br>Auto trovata! Guarda sul nostro Parco Auto.
                                 	<?
                                 }
+                <?
                             
-               
 		<div style="text-align: center">
 		
 		<h3>Ricerca la tua auto:</h3>
