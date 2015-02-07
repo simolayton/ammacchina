@@ -92,13 +92,13 @@
                                     <br><br><p>Nessun risultato. Clicca <a href="javascript:history.back()">QUI</a> per tornare alla ricerca</p>
                                 <?
                                 }
+                                }
                             
                                 else if(mysql_num_rows($queryvis)!=0)
                                 {
                                 	?>
                                 	<br><br>Auto trovata! Guarda sul nostro Parco Auto.
                                 	<?
-                                }
                                 }
                             <?
                             
