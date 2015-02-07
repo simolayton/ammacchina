@@ -41,10 +41,10 @@
 		    
 		    
                 </header>
-                
-                <h3>Ricerca la tua auto:</h3>
-                
+               
 		<div style="text-align: center">
+		
+		<h3>Ricerca la tua auto:</h3>
 		
 		<form action="Home.php?ricerca=ok" method="post" id="form-login">
                 
