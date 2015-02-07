@@ -41,7 +41,7 @@
 		    
 		    
                 </header>
-                <?
+                ?>
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
 
                             if(!$connessione_al_server)
@@ -99,8 +99,6 @@
                                 	<br><br>Auto trovata! Guarda sul nostro Parco Auto.
                                 	<?
                                 }
-                ?>
-                            }
                             <?
                             
 		<div style="text-align: center">
