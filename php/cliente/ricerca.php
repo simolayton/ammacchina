@@ -46,22 +46,22 @@
 		
 		<form action="Home.php?ricerca=ok" method="post" id="form-login">
                 
-                Marca: <input type="text" name="marca" placeholder="Tutto"/>
+                Marca: <input type="text" name="marca" placeholder="Tutto"/><br>
  
-                Modello:<input type="text" name="modello" placeholder="Tutto"/>
+                Modello:<input type="text" name="modello" placeholder="Tutto"/><br>
 
-                Anno:<input type="number" name="anno" min="1930" max="2015" placeholder="Da"/></td>
+                Anno:<input type="number" name="anno" min="1930" max="2015" placeholder="Da"/></td><br>
 
                 Alimentazione:
                                             <input type="radio" name="alimentazione" value="Benzina" checked/>Benzina
                                             <input type="radio" name="alimentazione" value="Diesel"/>Diesel
                                             <input type="radio" name="alimentazione" value="Gas"/>Gas
 
-                Prezzo:<input type="number" name="prezzo" min="0" placeholder="Fino a"/>
+                Prezzo:<input type="number" name="prezzo" min="0" placeholder="Fino a"/><br>
 
-                Chilometri:<input type="number" name="chilometri" min="0" placeholder="Fino a"/>
+                Chilometri:<input type="number" name="chilometri" min="0" placeholder="Fino a"/><br>
 
-                <input type="submit" value="Cerca" id="tasto-login"/>
+                <input type="submit" value="Cerca" id="tasto-login"/><br>
 
                 </form>
 
