@@ -18,68 +18,7 @@
         <div id="page">
                 
                 <header>
-                
-                <?
-                $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
 
-                            if(!$connessione_al_server)
-                            {
-                                die("Errore: connessione non riuscita".mysql_error());
-                            }
-
-                            $db_selected = mysql_select_db("amm14_mameliSimone", $connessione_al_server);
-
-                            if(!$db_selected)
-                            {
-                                die("Errore: selezione del database errata ".mysql_error());
-                            }
-
-                            if(isset($_GET["ricercaauto"]))
-                            {
-                            ?>
-                                <h3>Risultati:</h3>
-                            <?
-
-                                $_SESSION["marca"] = $_POST["marca"];
-                                $_SESSION["modello"] = $_POST["modello"];
-                                $_SESSION["anno"] = $_POST["anno"];
-                                $_SESSION["alimentazione"] = $_POST["alimentazione"];
-                                $_SESSION["prezzo"] = $_POST["prezzo"];
-                                $_SESSION["chilometri"] = $_POST["chilometri"];
-
-                                $wadd = "WHERE compratore IS NULL";
-
-                                if($_SESSION["marca"] !="")
-                                    $wadd .= " AND marca ='".$_SESSION["marca"]."'";
-                                if($_SESSION["modello"] !="")
-                                    $wadd .= " AND modello ='".$_SESSION["modello"]."'";
-                                if($_SESSION["anno"] !="")
-                                    $wadd .= " AND anno >='".$_SESSION["anno"]."'";
-                                if($_SESSION["alimentazione"] !="")
-                                    $wadd .= " AND alimentazione ='".$_SESSION["alimentazione"]."'";
-                                if($_SESSION["prezzo"] !="")
-                                    $wadd .= " AND prezzo <='".$_SESSION["prezzo"]."'";
-                                if($_SESSION["chilometri"] !="")
-                                    $wadd .= " AND chilometri <='".$_SESSION["chilometri"]."'";
-
-                                $queryvis = mysql_query("SELECT * FROM auto $wadd") or die("query non riuscita".mysql_error());
-
-                                if(mysql_num_rows($queryvis)==0)
-                                {
-                                ?>
-                                    <br><br><p>Nessun risultato. Clicca <a href="javascript:history.back()">QUI</a> per tornare alla ricerca</p>
-                                <?
-                                }
-                            }
-                            
-                                else if(mysql_num_rows($queryvis)!=0)
-                                {
-                                	?>
-                                	<br><br>Auto trovata! Guarda sul nostro Parco Auto.
-                                	<?
-                                }
-                            <?
-                
                     <div style="text-align: center" id="header">
                         <img src="../../img/1500.png" alt="" width="600" height="250"/>
                     </div>
