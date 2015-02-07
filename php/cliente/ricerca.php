@@ -41,7 +41,7 @@
 		    
 		    
                 </header>
-                ?>
+                <?
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
 
                             if(!$connessione_al_server)
@@ -92,7 +92,7 @@
                                     <br><br><p>Nessun risultato. Clicca <a href="javascript:history.back()">QUI</a> per tornare alla ricerca</p>
                                 <?
                                 }
-                                }
+                            }
                             
                                 else if(mysql_num_rows($queryvis)!=0)
                                 {
