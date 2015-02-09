@@ -3,9 +3,6 @@
 <html>
 
         <head>
-            	<script language="JavaScript">
-			if(history.length>0)history.forward()
-		</script>
         
                 <title>AMMacchina</title>
         	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
