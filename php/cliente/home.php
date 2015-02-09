@@ -92,6 +92,15 @@
                                 <?
                                 }
                                 }
+                                
+                                else
+                                {
+                                	?>
+                                	<br><br><p>Guarda nel parco auto.</p>
+                                	<?
+                                }
+                                }
+                                
                                 ?>
               
 		
