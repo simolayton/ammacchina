@@ -68,9 +68,9 @@
                                 $_SESSION["prezzo"] = $_POST["prezzo"];
                                 $_SESSION["chilometri"] = $_POST["chilometri"];
                                     
-                                $queryvis = "INSERT INTO cars (marca,modello,colore,anno,alimentazione,prezzo,chilometri)
-           		  	VALUES (\"".$_POST["marca"]."\",\"".$_POST["modello"]."\",\"".$_POST["colore"]."\",\"".$_POST["anno"]."\",\"".$_POST["alimentazione"]."\",\"".$_POST["prezzo"]."\",\"".$_POST["chilometri"]."\")";
-                                if(mysql_num_rows($queryvis)==0)
+                                $queryvis = "INSERT INTO cars (marca,modello,colore,anno,alimentazione,prezzo,chilometri) VALUES (\"".$_POST["marca"]."\",\"".$_POST["modello"]."\",\"".$_POST["colore"]."\",\"".$_POST["anno"]."\",\"".$_POST["alimentazione"]."\",\"".$_POST["prezzo"]."\",\"".$_POST["chilometri"]."\")";
+           		  	
+                                if(!mysql_query($queryvis))
                                 {
                                 ?>
                                 	<div style="text-align: center">
@@ -81,7 +81,7 @@
 
                                 <?
                                 }
-                                else if(mysql_num_rows($queryvis)!=0)
+                                else
                                 {
                                 	?>
                                 	<div style="text-align: center">
@@ -98,7 +98,7 @@
                                 
                 <div style="text-align: center">
 		
-		<h3>Ricerca la tua auto:</h3>
+		<h3>Aggiungi la tua auto:</h3>
 		
 		<form action="aggiungiauto.php?aggiungi" method="post" id="form-login">
                 
