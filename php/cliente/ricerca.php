@@ -98,19 +98,6 @@
                                 	
                                 	</div>
                                 	<?
-                                }
-
-                                else if($_SESSION["marca"]=""||$_SESSION["modello"]=""||$_SESSION["anno"]=""||$_SESSION["alimentazione"]=""||$_SESSION["prezzo"]=""||$_SESSION["chilometri"]="")
-                                {
-                                
-                                ?>
-                                	<div style="text-align: center">
-                                	
-                                		<h3>ERRORE : COMPILA CORRETTAMENTE IL FORM.</h3>
-                                	
-                                	</div>
-
-                                <?
 	
                                 }
                                 }
