@@ -93,7 +93,7 @@
                                 <?
                                 }
                                 
-                
+		}
 		
                                 else
            			{
@@ -102,11 +102,7 @@
                                 <?
                                 }
                                 
-                            <?
-                            }
-                            ?>
-                
-                
+
                 <div style="text-align: center">
                 
                             <h3>Dove ci trovi:</h3>
