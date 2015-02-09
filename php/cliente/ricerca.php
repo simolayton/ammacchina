@@ -59,7 +59,12 @@
                 if(isset($_GET["ricercaauto"]))
 		{
                             ?>
-                                <h3>Risultati:</h3>
+                            	<div style="text-align: center">
+                            	
+                            		<h3>Risultati:</h3>
+                            		
+                            	</div>
+
                             <?
                                 $_SESSION["marca"] = $_POST["marca"];
                                 $_SESSION["modello"] = $_POST["modello"];
@@ -84,7 +89,12 @@
                                 if(mysql_num_rows($queryvis)==0)
                                 {
                                 ?>
-                                    <br><br><p>Nessun risultato.</p>
+                                	<div style="text-align: center">
+                                	
+                                		<h3>NESSUN RISULTATO.</h3>
+                                	
+                                	</div>
+
                                 <?
                                 }
                                 
@@ -92,7 +102,11 @@
                                 else
                                 {
                                 	?>
-                                	<br><br><p>Auto trovata! Clicca su PARCO AUTO</p>
+                                	<div style="text-align: center">
+                                	
+                                		<h3>AUTO TROVATA! CLICCA SU <a href="parcoauto.php">PARCO AUTO</a></h3>
+                                	
+                                	</div>
                                 	<?
                                 }
                                 }
