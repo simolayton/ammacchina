@@ -100,7 +100,7 @@
                                 	<?
                                 }
 
-                                else if($_GET["marca"]=""||$_GET["modello"]=""||$_GET["anno"]=""||$_GET["alimentazione"]=""||$_GET["prezzo"]=""||$_GET["chilometri"]="")
+                                else if($_SESSION["marca"]=""||$_SESSION["modello"]=""||$_SESSION["anno"]=""||$_SESSION["alimentazione"]=""||$_SESSION["prezzo"]=""||$_SESSION["chilometri"]="")
                                 {
                                 
                                 ?>
