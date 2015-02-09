@@ -91,7 +91,7 @@
                                 }
                                 
                                 
-                                else
+                                else if(mysql_num_rows($queryvis)!=0)
                                 {
                                 	?>
                                 	<div style="text-align: center">
