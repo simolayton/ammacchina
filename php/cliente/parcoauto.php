@@ -89,8 +89,6 @@
 
                         <?echo"$row->chilometri";?>
                         
-                        <?echo"$row->euro";?>
-                        
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
                         <a href="parcoauto.php?aggiungi=<?echo $row->id?>" id="button">Aggiungi al carrello</a></td>
