@@ -139,7 +139,7 @@
 
                 <br>Chilometri:<input type="number" name="chilometri" min="0" placeholder="Fino a"/><br>
 
-                <br><input type="submit" value="Cerca" id="tasto-login"/><br>
+                <br><input type="submit" value="Cerca" id="button"/><br>
 
                 </form>
 
