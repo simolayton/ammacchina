@@ -105,7 +105,7 @@
 
                             if(isset($_GET["aggiungi"]) && ($_GET["aggiungi"]!=0))
                             {
-                                $idauto = $_GET["rimuovi"];
+                                $idauto = $_GET["aggiungi"];
 
 				$querypres = mysql_query("INSERT cart SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
 
