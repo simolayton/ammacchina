@@ -107,7 +107,9 @@
                             {
                                 $idauto = $_GET["aggiungi"];
 
-				$querypres = mysql_query("INSERT cart SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
+				$querypres = mysql_query("INSERT INTO cart(indice, idauto) VALUES (indice+1,$idauto)") or die('Query non riuscita'.mysql_error());
+		
+			//	$querypres = mysql_query("INSERT cart SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
 
                                 // $querypres = mysql_query("SELECT * FROM carrello WHERE id='".$idauto."'") or die('Query non riuscita'.mysql_error());
 
