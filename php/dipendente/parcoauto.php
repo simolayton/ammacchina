@@ -101,21 +101,6 @@
                             }
                             ?>
                             <?php
-                            if(isset($_GET["aggiungi"]) && ($_GET["aggiungi"]!=0))
-                            {
-                                $idauto = $_GET["aggiungi"];
-				$querypresagg = mysql_query("INSERT INTO cart(indice, idauto) VALUES (indice,$idauto)") or die('Query non riuscita'.mysql_error());
-				
-			//	$querypresdel = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
-		
-			//	$querypres = mysql_query("INSERT cart SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
-                                // $querypres = mysql_query("SELECT * FROM carrello WHERE id='".$idauto."'") or die('Query non riuscita'.mysql_error());
-                               // if(mysql_num_rows($querypres))
-                              //  {
-                              //      $query = "DELETE FROM cart WHERE id='".$idauto."'";
-                              //      $result = mysql_query($query);
-                              //  }
-                            }
                             
                             if(isset($_GET["rimuovi"]) && ($_GET["rimuovi"]!=0))
                             {
