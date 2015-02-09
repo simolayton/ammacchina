@@ -107,13 +107,13 @@
                             {
                                 $idauto = $_GET["rimuovi"];
 
-				$querypres = mysql_query("INSERT idauto SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
+				$querypres = mysql_query("INSERT cart SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
 
                                 // $querypres = mysql_query("SELECT * FROM carrello WHERE id='".$idauto."'") or die('Query non riuscita'.mysql_error());
 
                                 if(mysql_num_rows($querypres))
                                 {
-                                    $query = "DELETE FROM carrello WHERE id='".$idauto."'";
+                                    $query = "DELETE FROM cart WHERE id='".$idauto."'";
 
                                     $result = mysql_query($query);
                                 }
