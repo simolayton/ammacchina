@@ -83,7 +83,7 @@
                                 if($_SESSION["chilometri"] !="")
                                     $wadd .= " AND chilometri <='".$_SESSION["chilometri"]."'";
 
-                                $queryvis = mysql_query("SELECT * FROM auto $wadd") or die("query non riuscita".mysql_error());
+                                $queryvis = mysql_query("SELECT * FROM cars $wadd") or die("query non riuscita".mysql_error());
 
                                 if(mysql_num_rows($queryvis)==0)
                                 {
