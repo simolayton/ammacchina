@@ -92,6 +92,8 @@
                         
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
+                        <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a></td>
+                        
                          <!-- <input type="button" id="button" onclick="'https://www.paypal.com/it/home'" value="COMPRA"> -->
                         
                  </div> 
