@@ -58,7 +58,7 @@
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
-		{
+		
 			
                 
                 
