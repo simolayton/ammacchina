@@ -58,14 +58,6 @@
             	$row = mysql_fetch_object($queryvis);
                 if(isset($_GET["ricercaauto"]))
 		{
-                            ?>
-                            	<div style="text-align: center">
-                            	
-                            		<h3>Risultati:</h3>
-                            		
-                            	</div>
-
-                            <?
                                 $_SESSION["marca"] = $_POST["marca"];
                                 $_SESSION["modello"] = $_POST["modello"];
                                 $_SESSION["anno"] = $_POST["anno"];
