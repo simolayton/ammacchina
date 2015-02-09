@@ -82,7 +82,7 @@
                         
                         <?echo"$row->alimentazione";?>
 
-                        <?echo"$row->km";?>
+                        <?echo"$row->chilometri";?>
                         
                         <?echo"$row->euro";?>
                         
