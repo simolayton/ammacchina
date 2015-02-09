@@ -59,7 +59,43 @@
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
-                
+                 <?php
+            while($row = mysql_fetch_object($queryvis))
+            {
+            ?>
+            
+             <br>
+
+                   
+                   <div style="text-align: center">
+                   
+                 	<img src="../../img/pauto.png" width="100" height="70" alt="">
+                   
+                        <?echo"$row->marca";?>
+                        
+                        <?echo"$row->modello";?>
+                        
+			<?echo"$row->anno";?>
+			
+                        <?echo"$row->colore";?>
+                        
+                        <?echo"$row->alimentazione";?>
+
+                        <?echo"$row->chilometri";?>
+                        
+                        <?echo"$row->euro";?>
+                        
+                        <b>PREZZO : </b><?echo"$row->prezzo";?>
+                        
+                        <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Rimuovi dal carrello</a></td>
+                        
+                        <!-- <input type="button" id="button" onclick="'https://www.paypal.com/it/home'" value="COMPRA"> -->
+                        
+                 </div> 
+              <?php
+                            }
+                            ?>
+                            <?php
                 
                 
                 
