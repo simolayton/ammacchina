@@ -68,7 +68,7 @@
                                 $_SESSION["prezzo"] = $_POST["prezzo"];
                                 $_SESSION["chilometri"] = $_POST["chilometri"];
 
-                                $wadd = "WHERE stato !='Venduta';
+                                $wadd = "WHERE stato !="Venduta";
 
                                 if($_SESSION["marca"] !="")
                                     $wadd .= " AND marca ='".$_SESSION["marca"]."'";
