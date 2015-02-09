@@ -62,17 +62,11 @@
                 if(isset($_GET["aggiungi"]))
 		{
                                 $_SESSION["marca"] = $_POST["marca"];
-                                $marca=$_GET["marca"];
                                 $_SESSION["modello"] = $_POST["modello"];
-                                $marca=$_GET["modello"];
                                 $_SESSION["anno"] = $_POST["anno"];
-                                $marca=$_GET["anno"];
                                 $_SESSION["alimentazione"] = $_POST["alimentazione"];
-                                $marca=$_GET["alimentazione"];
                                 $_SESSION["prezzo"] = $_POST["prezzo"];
-                                $marca=$_GET["prezzo"];
                                 $_SESSION["chilometri"] = $_POST["chilometri"];
-                                $marca=$_GET["chilometri"];
                                     
                                 $queryvis = mysql_query("INSERT INTO cars(id,marca,modello,anno,alimentazione,prezzo,chilometri) VALUES(id,$marca,$modello,$anno,$alimentazione,$prezzo,$chilometri)") or die('Query non riuscita'.mysql_error());
 
