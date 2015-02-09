@@ -68,7 +68,7 @@
                                 $_SESSION["prezzo"] = $_POST["prezzo"];
                                 $_SESSION["chilometri"] = $_POST["chilometri"];
                                     
-                                $queryvis = mysql_query("INSERT INTO cars(id,marca,modello,anno,alimentazione,prezzo,chilometri) VALUES(id,$marca,$modello,$anno,$alimentazione,$prezzo,$chilometri)") or die('Query non riuscita'.mysql_error());
+                                $queryvis = mysql_query("INSERT INTO cars(id,marca,modello,colore,anno,alimentazione,prezzo,chilometri) VALUES(id,$marca,$modello,colore,$anno,$alimentazione,$prezzo,$chilometri)") or die('Query non riuscita'.mysql_error());
 
                                 if(mysql_num_rows($queryvis)==0)
                                 {
