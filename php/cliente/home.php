@@ -54,8 +54,7 @@
             	}
             	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata'") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
-                
-                
+
                 if(isset($_GET["ricercaauto"]))
 		{
                             ?>
@@ -92,8 +91,11 @@
                                     <br><br><p>Nessun risultato. Clicca <a href="javascript:history.back()">QUI</a> per tornare alla ricerca</p>
                                 <?
                                 }
-		}
-                                
+                                }
+                                ?>
+              
+		
+                
 		
 
                                 
