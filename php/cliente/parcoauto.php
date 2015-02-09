@@ -58,12 +58,18 @@
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
+                if(isset($_GET["aggiungi"]=id))
+		{
+			
                 
                 
             <?php
             while($row = mysql_fetch_object($queryvis))
             {
             ?>
+            
+            
+
          
              <br>
 
@@ -96,9 +102,24 @@
               <?php
                             }
                             ?>
+                            <?php
 
-                   
-	
+                            if(isset($_GET["aggiungi"]) && ($_GET["aggiungi"]!=0))
+                            {
+                                $idauto = $_GET["rimuovi"];
+
+				$querypres = mysql_query("INSERT idauto SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
+
+                                // $querypres = mysql_query("SELECT * FROM carrello WHERE id='".$idauto."'") or die('Query non riuscita'.mysql_error());
+
+                                if(mysql_num_rows($querypres))
+                                {
+                                    $query = "DELETE FROM carrello WHERE id='".$idauto."'";
+
+                                    $result = mysql_query($query);
+                                }
+                            }
+			?>
 
                 
                 
