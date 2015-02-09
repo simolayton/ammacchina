@@ -93,28 +93,15 @@
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
                         <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a></td>
-                        
-                         <!-- <input type="button" id="button" onclick="'https://www.paypal.com/it/home'" value="COMPRA"> -->
-                        
+
                  </div> 
               <?php
                             }
-                            ?>
-                            <?php
                             
                             if(isset($_GET["rimuovi"]) && ($_GET["rimuovi"]!=0))
                             {
                                 $idauto = $_GET["rimuovi"];
 				$querypres = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
-			//	$querypres = mysql_query("INSERT INTO cart(indice, idauto) VALUES (indice,$idauto)") or die('Query non riuscita'.mysql_error());
-		
-			//	$querypres = mysql_query("INSERT cart SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
-                                // $querypres = mysql_query("SELECT * FROM carrello WHERE id='".$idauto."'") or die('Query non riuscita'.mysql_error());
-                               // if(mysql_num_rows($querypres))
-                              //  {
-                              //      $query = "DELETE FROM cart WHERE id='".$idauto."'";
-                              //      $result = mysql_query($query);
-                              //  }
                             }
 			?>
 
