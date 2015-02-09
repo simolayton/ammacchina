@@ -66,7 +66,7 @@
                                 $_SESSION["anno"] = $_POST["anno"];
                                 $_SESSION["alimentazione"] = $_POST["alimentazione"];
                                 $_SESSION["prezzo"] = $_POST["prezzo"];
-                                $_SESSION["chilometri"] = $_POST["chilometri"];
+                                $_SESSION["km"] = $_POST["km"];
 
                                 $wadd = "WHERE stato ='Venduta'";
 
@@ -80,8 +80,8 @@
                                     $wadd .= " AND alimentazione ='".$_SESSION["alimentazione"]."'";
                                 if($_SESSION["prezzo"] !="")
                                     $wadd .= " AND prezzo <='".$_SESSION["prezzo"]."'";
-                                if($_SESSION["chilometri"] !="")
-                                    $wadd .= " AND chilometri <='".$_SESSION["chilometri"]."'";
+                                if($_SESSION["km"] !="")
+                                    $wadd .= " AND km <='".$_SESSION["km"]."'";
 
                                 $queryvis = mysql_query("SELECT * FROM cars $wadd") or die("query non riuscita".mysql_error());
 
