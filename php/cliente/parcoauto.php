@@ -113,12 +113,12 @@
 
                                 // $querypres = mysql_query("SELECT * FROM carrello WHERE id='".$idauto."'") or die('Query non riuscita'.mysql_error());
 
-                                if(mysql_num_rows($querypres))
-                                {
-                                    $query = "DELETE FROM cart WHERE id='".$idauto."'";
+                               // if(mysql_num_rows($querypres))
+                              //  {
+                              //      $query = "DELETE FROM cart WHERE id='".$idauto."'";
 
-                                    $result = mysql_query($query);
-                                }
+                              //      $result = mysql_query($query);
+                              //  }
                             }
 			?>
 
