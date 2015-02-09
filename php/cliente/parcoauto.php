@@ -58,7 +58,6 @@
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
-                if(isset($_GET["aggiungi"]=id))
 		{
 			
                 
