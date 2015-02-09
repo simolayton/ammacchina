@@ -95,15 +95,9 @@
                                 
 		}
 		
-                                else
-           			{
-                                ?>
-                                    <br><br><p>TROVATA!</p>
-                                <?
-                                }
-                                ?>
-                                }
-                                 <?
+		<?
+		
+
                                 
 
                 <div style="text-align: center">
