@@ -120,7 +120,7 @@
                             if(isset($_GET["rimuovi"]) && ($_GET["rimuovi"]!=0))
                             {
                                 $idauto = $_GET["rimuovi"];
-				$querypres = mysql_query("DELETE FROM cart WHERE idauto='$idauto'") or die('Query non riuscita'.mysql_error());
+				$querypres = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
 			//	$querypres = mysql_query("INSERT INTO cart(indice, idauto) VALUES (indice,$idauto)") or die('Query non riuscita'.mysql_error());
 		
 			//	$querypres = mysql_query("INSERT cart SELECT idauto FROM cart") or die('Query non riuscita'.mysql_error());
