@@ -54,7 +54,7 @@
             	}
             	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata'") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
-                ?>
+                
                 
                 if(isset($_GET["ricercaauto"]))
 		{
@@ -102,6 +102,7 @@
                                 <?
                                 }
                                 }
+             <?
                 
                 
                 <div style="text-align: center">
