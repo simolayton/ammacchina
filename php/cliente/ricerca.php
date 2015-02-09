@@ -89,8 +89,6 @@
 
                                 <?
                                 }
-                                
-                                
                                 else if(mysql_num_rows($queryvis)!=0)
                                 {
                                 	?>
@@ -100,6 +98,20 @@
                                 	
                                 	</div>
                                 	<?
+                                }
+
+                                else if($_GET["marca"]=""||$_GET["modello"]=""||$_GET["anno"]=""||$_GET["alimentazione"]=""||$_GET["prezzo"]=""||$_GET["chilometri"]="")
+                                {
+                                
+                                ?>
+                                	<div style="text-align: center">
+                                	
+                                		<h3>ERRORE : COMPILA CORRETTAMENTE IL FORM.</h3>
+                                	
+                                	</div>
+
+                                <?
+	
                                 }
                                 }
                                 
