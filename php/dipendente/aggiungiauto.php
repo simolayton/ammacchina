@@ -111,16 +111,20 @@
                 <br>Anno:<input type="number" name="anno" min="1950" max="2015"></td><br>
 
                 <br>Alimentazione:
-                                            <input type="radio" name="alimentazione" value="Benzina" checked/>Benzina
-                                            <input type="radio" name="alimentazione" value="Diesel"/>Diesel
-                                            <input type="radio" name="alimentazione" value="Gas"/>Gas
-                                            <input type="radio" name="alimentazione" value="Elettrica"/>Elettrica
+                                            <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
+                                            <input type="radio" name="alimentazione" value="Diesel">Diesel
+                                            <input type="radio" name="alimentazione" value="Gas">Gas
+                                            <input type="radio" name="alimentazione" value="Elettrica">Elettrica
 
                 <br><br>Prezzo:<input type="number" name="prezzo" min="0"><br>
 
                 <br>Chilometri:<input type="number" name="chilometri" min="0"><br>
+                
+                <br>Stato veicolo:
+                                            <input type="radio" name="stato" value="Auto usata" checked>Auto usata
+                                            <input type="radio" name="stato" value="Auto nuova">Auto nuova             
 
-                <br><input type="submit" value="Aggiungi" id="button"/><br>
+                <br><input type="submit" value="Aggiungi" id="button"><br>
 
                 </form>
 
