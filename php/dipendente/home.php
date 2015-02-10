@@ -40,6 +40,45 @@
 
                 </header>
                 
+                <?php
+                $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
+                
+                if(!$connessione_al_server)
+                {
+                	die("Errore: connessione non riuscita".mysql_error());
+            	}
+            	$db_selected = mysql_select_db("amm14_mameliSimone", $connessione_al_server);
+            	if(!$db_selected)
+            	{
+                	die("Errore: selezione del database errata ".mysql_error());
+            	}
+            	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata' OR stato='Auto nuova'") or die("query non riuscita".mysql_error());
+            	$row = mysql_fetch_object($queryvis);
+                ?>
+                
+
+            	<?php
+        	 while($row = mysql_fetch_object($queryvis))
+        	 {
+            	?>
+            	
+            	
+            	
+            	
+            	<?
+        	 }
+            	?>
+            
+            
+
+         
+             <br>
+
+                   
+                   <div style="text-align: center">
+                   
+                   </div>
+                
    
 	<br>
 	<br>
