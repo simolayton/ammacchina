@@ -109,7 +109,7 @@
                 
                 <br>Colore: <input type="text" name="colore"><br>
  
-                <br>Anno:<input type="number" name="anno" min="1950" max="2015"></td><br>
+                <br>Anno:<input type="number" name="anno" min="1950" max="2015"><br>
 
                 <br>Alimentazione:
                                             <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
