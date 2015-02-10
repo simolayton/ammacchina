@@ -80,15 +80,17 @@
                    
                         <?echo"$row->marca";?>
                         
-                        <?echo"$row->modello";?>
+                        <?echo"$row->modello";?>,
                         
-			<?echo"$row->anno";?>
-			
-                        <?echo"$row->colore";?>
+                        <?echo"$row->anno";?>,
                         
-                        <?echo"$row->alimentazione";?>
+                        <?echo"$row->stato";?>, 
+                        
+                        colore : <?echo"$row->colore";?>,
+                        
+                        <?echo"$row->alimentazione";?>, 
 
-                        <?echo"$row->chilometri";?>
+                        chilometri : <?echo"$row->chilometri";?>,
                         
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
