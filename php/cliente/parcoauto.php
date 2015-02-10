@@ -81,15 +81,15 @@
                         
                         <?echo"$row->modello";?>,
                         
+                        <?echo"$row->anno";?>,
+                        
                         <?echo"$row->stato";?>, 
                         
-			<?echo"$row->anno";?>, colore : 
-			
-                        <?echo"$row->colore";?>,
+                        colore : <?echo"$row->colore";?>,
                         
-                        <?echo"$row->alimentazione";?>, chilometri : 
+                        <?echo"$row->alimentazione";?>, 
 
-                        <?echo"$row->chilometri";?>,
+                        chilometri : <?echo"$row->chilometri";?>,
                         
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
