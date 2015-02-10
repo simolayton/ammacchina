@@ -90,7 +90,7 @@
                             }
                             ?>
                             
-                            <a href="https://www.paypal.com/it/webapps/mpp/home" id="button" style="background-color:green">Conferma carrello</a></td>
+                            <a href="https://www.paypal.com/it/webapps/mpp/home" id="button" style="background-color:green">Conferma carrello</a>
                 
                 
                 
