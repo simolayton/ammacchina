@@ -112,7 +112,7 @@
  
                 <br>Modello:<input type="text" name="modello"><br>
 
-                <br>Anno:<input type="number" name="anno" min="1930" max="2015"></td><br>
+                <br>Anno:<input type="number" name="anno" min="1930" max="2015"><br>
 
                 <br>Alimentazione:
                                             <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
