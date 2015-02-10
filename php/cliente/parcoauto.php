@@ -77,17 +77,19 @@
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                        <?echo"$row->marca";?>
+                        <?echo"$row->marca";?>,
                         
-                        <?echo"$row->modello";?>
+                        <?echo"$row->modello";?>,
                         
-			<?echo"$row->anno";?>
+                        <?echo"$row->stato";?>, 
+                        
+			<?echo"$row->anno";?>, colore : 
 			
-                        <?echo"$row->colore";?>
+                        <?echo"$row->colore";?>,
                         
-                        <?echo"$row->alimentazione";?>
+                        <?echo"$row->alimentazione";?>,
 
-                        <?echo"$row->chilometri";?>
+                        <?echo"$row->chilometri";?>,
                         
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
