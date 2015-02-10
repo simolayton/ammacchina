@@ -67,8 +67,9 @@
                                 $_SESSION["alimentazione"] = $_POST["alimentazione"];
                                 $_SESSION["prezzo"] = $_POST["prezzo"];
                                 $_SESSION["chilometri"] = $_POST["chilometri"];
+                                $_SESSION["stato"] = $_POST["stato"];
                                     
-                                $queryvis = "INSERT INTO cars (marca,modello,anno,alimentazione,prezzo,chilometri) VALUES (\"".$_POST["marca"]."\",\"".$_POST["modello"]."\",\"".$_POST["anno"]."\",\"".$_POST["alimentazione"]."\",\"".$_POST["prezzo"]."\",\"".$_POST["chilometri"]."\")";
+                                $queryvis = "INSERT INTO cars (marca,modello,anno,alimentazione,prezzo,chilometri,stato) VALUES (\"".$_POST["marca"]."\",\"".$_POST["modello"]."\",\"".$_POST["anno"]."\",\"".$_POST["alimentazione"]."\",\"".$_POST["prezzo"]."\",\"".$_POST["chilometri"]."\",\"".$_POST["stato"]."\")";
            		  	
                                 if(!mysql_query($queryvis))
                                 {
