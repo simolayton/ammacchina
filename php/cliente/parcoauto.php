@@ -87,7 +87,7 @@
                         
                         <?echo"$row->alimentazione";?>
 
-                        <?echo"$row->chilometri";?><br>
+                        <?echo"$row->chilometri";?>
                         
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
