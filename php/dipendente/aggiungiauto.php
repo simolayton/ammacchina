@@ -102,20 +102,23 @@
 		
 		<form action="aggiungiauto.php?aggiungi" method="post" id="form-login">
                 
-                <br>Marca: <input type="text" name="marca" placeholder="Tutto"/><br>
+                <br>Marca: <input type="text" name="marca"><br>
+                
+                <br>Modello:<input type="text" name="modello"><br>
+                
+                <br>Colore: <input type="text" name="colore"><br>
  
-                <br>Modello:<input type="text" name="modello" placeholder="Tutto"/><br>
-
-                <br>Anno:<input type="number" name="anno" min="1930" max="2015" placeholder="Da"/></td><br>
+                <br>Anno:<input type="number" name="anno" min="1950" max="2015"></td><br>
 
                 <br>Alimentazione:
                                             <input type="radio" name="alimentazione" value="Benzina" checked/>Benzina
                                             <input type="radio" name="alimentazione" value="Diesel"/>Diesel
                                             <input type="radio" name="alimentazione" value="Gas"/>Gas
+                                            <input type="radio" name="alimentazione" value="Elettrica"/>Gas
 
-                <br><br>Prezzo:<input type="number" name="prezzo" min="0" placeholder="Fino a"/><br>
+                <br><br>Prezzo:<input type="number" name="prezzo" min="0"><br>
 
-                <br>Chilometri:<input type="number" name="chilometri" min="0" placeholder="Fino a"/><br>
+                <br>Chilometri:<input type="number" name="chilometri" min="0"><br>
 
                 <br><input type="submit" value="Aggiungi" id="button"/><br>
 
