@@ -28,10 +28,9 @@ I clienti possono:
 
 Requisiti soddisfatti
 
-Utilizzo di HTML e CSS :  ✓
-Utilizzo di PHP e MySQL :  ✓
-Utilizzo del pattern MVC :  ✓
-Due ruoli (cliente e dipendente) :  ✓
+Utilizzo di HTML e CSS :  ✔
+Utilizzo di PHP e MySQL :  ✔
+Due ruoli (cliente e dipendente) :  ✔
 
 CREDENZIALI
 
