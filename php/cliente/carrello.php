@@ -70,8 +70,7 @@
 
                    
                    <div style="text-align: center">
-                   
-                        <h3>Carrello:</h3>
+                  
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
