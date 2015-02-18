@@ -121,7 +121,7 @@
 				
 				
 				
-				header("refresh:1;url=carrello.php?conferma=$idcarr");
+				header("refresh:1;url=carrello.php");
 				
 				//header("Location: https://www.paypal.com/it/webapps/mpp/home");
 				//indice>1 && idauto>1 &&
