@@ -44,7 +44,7 @@
                 
                 <div style="text-align: center">
                 
-                       <h3>Parco Auto:</h3>
+                       <h3>Home - promemoria:</h3>
                        
                 </div>
                 
@@ -60,7 +60,7 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata' OR stato='Auto nuova'") or die("query non riuscita".mysql_error());
+            	$queryvis = mysql_query("SELECT label FROM table") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
@@ -81,35 +81,15 @@
                    
                    <div style="text-align: center">
                    
-                 	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                        <?echo"$row->marca";?>
+                        <?echo"$row->label";?>
                         
-                        <?echo"$row->modello";?>,
-                        
-                        <?echo"$row->anno";?>,
-                        
-                        <?echo"$row->stato";?>, 
-                        
-                        colore : <?echo"$row->colore";?>,
-                        
-                        <?echo"$row->alimentazione";?>, 
 
-                        chilometri : <?echo"$row->chilometri";?>,
-                        
-                        <b>PREZZO : </b><?echo"$row->prezzo";?>
-                        
-                        <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a></td>
 
                  </div> 
               <?php
                             }
                             
-                            if(isset($_GET["rimuovi"]))
-                            {
-                                $idauto = $_GET["rimuovi"];
-				$querypres = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
-                            }
 			?>
 
 
