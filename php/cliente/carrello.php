@@ -39,6 +39,12 @@
 		    
                 </header>
                 
+                <div style="text-align: center">
+                
+                       <h3>Il tuo carrello:</h3>
+                       
+                </div>
+                
                 <?php
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
                 
