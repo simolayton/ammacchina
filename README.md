@@ -28,9 +28,12 @@ I clienti possono:
 
 Requisiti soddisfatti
 
-Utilizzo di HTML e CSS :  ✔
-Utilizzo di PHP e MySQL :  ✔
-Due ruoli (cliente e dipendente) :  ✔
+Utilizzo di HTML e CSS : V
+Utilizzo di PHP e MySQL : V
+Due ruoli (cliente e dipendente) : V
+
+Sito accettato dal W3C HTML : V
+Sito accettato dal W3C CSS  : V
 
 CREDENZIALI
 
