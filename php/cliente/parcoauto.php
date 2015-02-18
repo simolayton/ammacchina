@@ -42,6 +42,11 @@
 		    
                 </header>
                 
+                <div style="text-align: center">
+                
+                       <h3>Parco Auto:</h3>
+                       
+                </div>
                 
                 
                 <?php
@@ -77,7 +82,7 @@
                    
                    <div style="text-align: center">
                    
-                   <h3>Parco Auto:</h3>
+
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
