@@ -99,11 +99,17 @@
                             }
                             ?>
                             
-                            <a href="https://www.paypal.com/it/webapps/mpp/home" id="button" style="background-color:green">Conferma carrello</a>
-                
-                
-                
-                
+                            <a href="carrello.php?conferma" id="button" style="background-color:green">Conferma carrello</a>
+                            
+                            <?php
+                            if(isset($_GET["conferma"]))
+                            {
+                                $idauto = $_GET["conferma"];
+				$queryconf = mysql_query("DELETE * FROM cart WHERE indice>1 && idauto>1 && label='NON_ELIMINARE'");      
+				
+                            }
+				?>
+	
 	<br>
 	<br>
 	<br>
