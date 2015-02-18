@@ -96,11 +96,12 @@
 
                         </div> 
                         
-                       <a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
+                       <a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green"></a>
               <?php
                             }
                             ?>
                             
+                            <a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
                             
                             
                    <?php
