@@ -109,7 +109,7 @@
                             	
                             	$idauto = $_GET["conferma"];
                             	
-                            	$querydel = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());     
+                            	$querydel = mysql_query("DELETE FROM cars WHERE id=$idauto") or die('Query non riuscita'.mysql_error());     
                             	
 				$queryconf = mysql_query("DELETE FROM cart WHERE label!='NON_ELIMINARE'") or die('Query non riuscita'.mysql_error());      
 				
