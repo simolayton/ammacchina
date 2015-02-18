@@ -107,7 +107,7 @@
                             if(isset($_GET["conferma"]))
                             {
                             	
-                            	$idauto = $_GET["aggiungi"];
+                            	$idauto = $_GET["conferma"];
                             	
                             	$querydel = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());     
                             	
