@@ -96,7 +96,6 @@
 
                         </div> 
                         
-                       <a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green"></a>
               <?php
                             }
                             ?>
@@ -113,6 +112,9 @@
                             	$querydel = mysql_query("DELETE FROM cars WHERE id='$idcarr'") or die('Query non riuscita'.mysql_error());     
                             	
 				$queryconf = mysql_query("DELETE FROM cart WHERE label!='NON_ELIMINARE'") or die('Query non riuscita'.mysql_error());      
+				
+				
+				
 				
 				
 				
