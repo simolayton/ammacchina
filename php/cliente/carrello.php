@@ -99,7 +99,7 @@
                             }
                             ?>
                             
-                            <a href="carrello.php?conferma" id="button" style="background-color:green">Conferma carrello</a>
+                            
                             
                             <?php
                             if(isset($_GET["conferma"]))
@@ -109,7 +109,7 @@
 				
                             }
 				?>
-	
+				<a href="carrello.php?conferma" id="button" style="background-color:green">Conferma carrello</a>
 	<br>
 	<br>
 	<br>
