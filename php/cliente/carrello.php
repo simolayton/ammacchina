@@ -104,8 +104,11 @@
                             if(isset($_GET["conferma"]))
                             {
 				$queryconf = mysql_query("DELETE FROM cart WHERE label!='NON_ELIMINARE'") or die('Query non riuscita'.mysql_error());      
+				
+				
+				header("Location: https://www.paypal.com/it/webapps/mpp/home");
 				//indice>1 && idauto>1 &&
-				//https://www.paypal.com/it/webapps/mpp/home
+				//
                             }
                             ?>
 			
