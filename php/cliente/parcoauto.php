@@ -42,6 +42,8 @@
 		    
                 </header>
                 
+                <h3>Parco Auto:</h3>
+                
                 <?php
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
                 
