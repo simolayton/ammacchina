@@ -105,7 +105,7 @@
                             {
 				$queryconf = mysql_query("DELETE FROM cart WHERE label!='NON_ELIMINARE'") or die('Query non riuscita'.mysql_error());      
 				
-				redirect(carrello.php,1);  
+				redirect(carrello.php,3);  
 				
 				//header("Location: https://www.paypal.com/it/webapps/mpp/home");
 				//indice>1 && idauto>1 &&
