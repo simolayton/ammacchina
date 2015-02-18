@@ -100,13 +100,20 @@
               <?php
                             }
                             ?>
-                            <a href="carrello.php?conferma" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
+                            <a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
                             
                             
                    <?php
                             if(isset($_GET["conferma"]))
                             {
+                            	
+                            	$idauto = $_GET["aggiungi"];
+                            	
+                            	$querydel = mysql_query("DELETE FROM cars WHERE idauto='$idauto'") or die('Query non riuscita'.mysql_error());     
+                            	
 				$queryconf = mysql_query("DELETE FROM cart WHERE label!='NON_ELIMINARE'") or die('Query non riuscita'.mysql_error());      
+				
+				
 				
 				header("refresh:1;url=carrello.php");
 				
