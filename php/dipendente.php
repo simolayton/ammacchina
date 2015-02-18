@@ -43,7 +43,7 @@
                 
                 <div style="text-align: center">
                 
-                       <h3>Parco Auto:</h3>
+                       <h3>HOME - PROMEMORIA:</h3>
                        
                 </div>
                 
@@ -59,7 +59,7 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	$queryvis = mysql_query("SELECT * FROM table") or die("query non riuscita".mysql_error());
+            	$queryvis = mysql_query("SELECT label FROM table") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
