@@ -69,8 +69,8 @@
                 
                 
             <?php
-            while($row = mysql_fetch_object($queryvis))
-            {
+            //while($row = mysql_fetch_object($queryvis))
+            //{
             ?>
             
             
@@ -88,7 +88,7 @@
 
                  </div> 
               <?php
-                            }
+                         //   }
                             
 			?>
 
