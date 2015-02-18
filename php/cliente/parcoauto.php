@@ -107,9 +107,8 @@
                             {
                                 $idauto = $_GET["aggiungi"];
 
-				$querypresagg = mysql_query("INSERT INTO cart(indice, idauto) VALUES (indice,$idauto)") or die('Query non riuscita'.mysql_error());
-				
-				$querypresdel = mysql_query("DELETE cars FROM cars WHERE id='$idauto')" or die('Query non riuscita'.mysql_error());
+			$querypresagg = mysql_query("INSERT INTO cart(indice, idauto) VALUES (indice,$idauto)") or die('Query non riuscita'.mysql_error());
+			$querypresdel = mysql_query("DELETE cars FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
 				
 			//	$querypresdel = mysql_query("DELETE FROM cars WHERE id='".$idauto."'") or die('Query non riuscita'.mysql_error());
 		
