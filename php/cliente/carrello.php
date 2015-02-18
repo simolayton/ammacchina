@@ -39,6 +39,8 @@
 		    
                 </header>
                 
+                <h3>Carrello:</h3>
+                
                 <?php
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
                 
