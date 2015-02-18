@@ -93,7 +93,7 @@
                         <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Rimuovi dal carrello</a>
                         
                         <!-- <input type="button" id="button" onclick="'https://www.paypal.com/it/home'" value="COMPRA"> -->
-                        
+                        <a href="carrello.php?conferma=<? $row->indice?>'" id="button" style="background-color:green">Conferma carrello</a>
                  </div> 
               <?php
                             }
@@ -101,15 +101,17 @@
                             
                             
                    <?php
-                            //if(isset($_GET["conferma"]))
-                            //{
-                            //    $idauto = $_GET["conferma"];
-			//	$queryconf = mysql_query("DELETE * FROM cart WHERE indice>1 && idauto>1 && label='NON_ELIMINARE'");      
+                            if(isset($_GET["conferma"]))
+                            {
+                                $idcart = $_GET["conferma"];
+				$queryconf = mysql_query("DELETE * FROM cart WHERE label='NON_ELIMINARE'");      
+				//indice>1 && idauto>1 &&
+				//https://www.paypal.com/it/webapps/mpp/home
+                            }
+                            ?>
+			
+			
 				
-                           // }?>
-			
-			
-				<a href="https://www.paypal.com/it/webapps/mpp/home" id="button" style="background-color:green">Conferma carrello</a>
 	<br>
 	<br>
 	<br>
