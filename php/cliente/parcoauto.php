@@ -42,7 +42,7 @@
 		    
                 </header>
                 
-                <h3>Parco Auto:</h3>
+                
                 
                 <?php
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
@@ -76,6 +76,8 @@
 
                    
                    <div style="text-align: center">
+                   
+                   <h3>Parco Auto:</h3>
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
