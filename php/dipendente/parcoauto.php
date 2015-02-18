@@ -106,7 +106,7 @@
               <?php
                             }
                             
-                            if(isset($_GET["rimuovi"]) && ($_GET["rimuovi"]!=0))
+                            if(isset($_GET["rimuovi"]))
                             {
                                 $idauto = $_GET["rimuovi"];
 				$querypres = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
