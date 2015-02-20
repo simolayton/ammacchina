@@ -23,9 +23,7 @@
                         <img src="../../img/1500.png" alt="" width="600" height="250"/>
                     </div>
                     
-                    <div style="text-align: center" id="top">
-                    	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
-		    
+                <div style="text-align: center" id="top">
 
 		<div style="text-align: center" id="menu">
                     <ul>
@@ -39,8 +37,7 @@
 		</div>
 
                 </header>
-                
-                
+
                 <div style="text-align: center">
                 
                             <h3>Dove ci trovi:</h3>
