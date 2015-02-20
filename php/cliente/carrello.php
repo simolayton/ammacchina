@@ -20,9 +20,7 @@
                         <img src="../../img/1500.png" alt="" width="600" height="250"/>
                     </div>
                     
-                    <div style="text-align: center" id="top">
-                    	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
-		    
+                <div style="text-align: center" id="top">
 
 		<div style="text-align: center" id="menu">
                     <ul>
@@ -34,9 +32,7 @@
                     </ul>
                 </div>
 		</div>
-		    
-		    
-		    
+ 
                 </header>
                 
                 <div style="text-align: center">
@@ -91,46 +87,27 @@
                         <b>PREZZO : </b><?echo"$row->prezzo";?>
                         
                         <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Rimuovi dal carrello</a>
-                        
-                        <!-- <input type="button" id="button" onclick="'https://www.paypal.com/it/home'" value="COMPRA"> -->
 
-<a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
+			<a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
 
                         </div> 
-                        
-                        
-              <?php
-                            }
-                            ?>
-                            
-                            
-                            
-                            
-                   <?php
-                            if(isset($_GET["conferma"]))
-                            {
-                            	
-                            	$idcarr = $_GET["conferma"];
-                            	
-                            	$querydel = mysql_query("DELETE FROM cars WHERE id='$idcarr'") or die('Query non riuscita'.mysql_error());     
-                            	
+
+              		<?php
+                        }
+                        ?>
+ 
+                   	<?php
+                	if(isset($_GET["conferma"]))
+                	{
+				$idcarr = $_GET["conferma"];
+                	    	$querydel = mysql_query("DELETE FROM cars WHERE id='$idcarr'") or die('Query non riuscita'.mysql_error());     
 				$queryconf = mysql_query("DELETE FROM cart WHERE label!='NON_ELIMINARE'") or die('Query non riuscita'.mysql_error());      
-				
-				
-				
-				
-				
-				
+
 				header("refresh:1;url=carrello.php");
-				
-				//header("Location: https://www.paypal.com/it/webapps/mpp/home");
-				//indice>1 && idauto>1 &&
-				//
-                            }
-                            ?>
+
+                	}
+                        ?>
 			
-			
-				
 	<br>
 	<br>
 	<br>
