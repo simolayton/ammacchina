@@ -11,7 +11,7 @@
 	<br>
 	
 	<header>
-        	<div style="text-align: center">
+        	<div style="text-align: center" id="back">
             		<img src="img/1500.png" alt="" width="600" height="250"/>
         	</div>
 	</header>
@@ -44,7 +44,7 @@
 	
 	<br>
 	
-	<div style="text-align: center">
+	<div style="text-align: center" id="back">
 		<a href="README.md">Accesso al progetto</a>
 	</div>
 	
