@@ -23,9 +23,7 @@
                         <img src="../../img/1500.png" alt="" width="600" height="250"/>
                     </div>
                     
-                    <div style="text-align: center" id="top">
-                    	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
-		    
+                <div style="text-align: center" id="top">
 
 		<div style="text-align: center" id="menu">
                     <ul>
@@ -38,12 +36,9 @@
                 </div>
 		</div>
 		    
-		    
-		    
                 </header>
-                
-                
-		 <?php
+
+		<?php
                 $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
                 
                 if(!$connessione_al_server)
@@ -55,10 +50,7 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	
-            	//$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata'") or die("query non riuscita".mysql_error());
-            	//$row = mysql_fetch_object($queryvis);
-            	
+
                 if(isset($_GET["aggiungi"]))
 		{
                                 $_SESSION["marca"] = $_POST["marca"];
@@ -76,64 +68,45 @@
                                 {
                                 ?>
                                 	<div style="text-align: center">
-                                	
                                 		<h3>ERRORE : AUTO NON INSERITA.</h3>
-                                	
                                 	</div>
-
                                 <?
                                 }
                                 else
                                 {
                                 	?>
                                 	<div style="text-align: center">
-                                	
                                 		<h3>AUTO INSERITA CORRETTAMENTE!</a></h3>
-                                	
                                 	</div>
                                 	<?
-	
                                 }
-                                }
-                                
-                                ?>
+                }
+                ?>
                                 
                 <div style="text-align: center">
 		
 		<h3>Aggiungi la tua auto:</h3>
 		
 		<form action="aggiungiauto.php?aggiungi" method="post" id="form-login">
-                
-                <br>Marca: <input type="text" name="marca"><br>
-                
-                <br>Modello:<input type="text" name="modello"><br>
-                
-                <br>Colore: <input type="text" name="colore"><br>
- 
-                <br>Anno:<input type="number" name="anno" min="1950" max="2015"><br>
-
-                <br>Alimentazione:
-                                            <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
-                                            <input type="radio" name="alimentazione" value="Diesel">Diesel
-                                            <input type="radio" name="alimentazione" value="Gas">Gas
-                                            <input type="radio" name="alimentazione" value="Elettrica">Elettrica
-
-                <br><br>Prezzo:<input type="number" name="prezzo" min="0"><br>
-
-                <br>Chilometri:<input type="number" name="chilometri" min="0"><br>
-                
-                <br>Stato veicolo:
-                                            <input type="radio" name="stato" value="Auto usata" checked>Auto usata
-                                            <input type="radio" name="stato" value="Auto nuova">Auto nuova             
-
-                <br><input type="submit" value="Aggiungi" id="button"><br>
-
+                	<br>Marca: <input type="text" name="marca"><br>
+                	<br>Modello:<input type="text" name="modello"><br>
+                	<br>Colore: <input type="text" name="colore"><br>
+                	<br>Anno:<input type="number" name="anno" min="1950" max="2015"><br>
+                	<br>Alimentazione:
+                	                            <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
+                	                            <input type="radio" name="alimentazione" value="Diesel">Diesel
+                	                            <input type="radio" name="alimentazione" value="Gas">Gas
+                	                            <input type="radio" name="alimentazione" value="Elettrica">Elettrica
+	
+                	<br><br>Prezzo:<input type="number" name="prezzo" min="0"><br>
+                	<br>Chilometri:<input type="number" name="chilometri" min="0"><br>
+                	<br>Stato veicolo:
+                	                            <input type="radio" name="stato" value="Auto usata" checked>Auto usata
+                	                            <input type="radio" name="stato" value="Auto nuova">Auto nuova             
+	
+                	<br><input type="submit" value="Aggiungi" id="button"><br>
                 </form>
-
 		</div>
-
-
-
 	<br>
 	<br>
 	<br>
