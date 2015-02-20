@@ -16,7 +16,8 @@
         	<div style="text-align: center">
             		<img src="img/1500.png" alt="" width="600" height="250"/>
         	</div>
-	 </header>
+        	<body bgcolor="#C0C0C0">
+	</header>
 	
 	<br>
 	<br>
