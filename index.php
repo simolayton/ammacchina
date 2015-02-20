@@ -8,6 +8,8 @@
         	<link rel="shortcut icon" href="img/icona.ico">
 	</head>
 	
+	<body>
+	
 	<br>
 	
 	<div id="back">
