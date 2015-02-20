@@ -78,7 +78,7 @@
                                 {
                                 ?>
                                 	<div style="text-align: center">
-                                		<h3>NESSUN RISULTATO.</h3>
+                                		<h3>Attenzione : Nessun risultato trovato.</h3>
                                 	</div>
                                 <?
                                 }
@@ -86,7 +86,7 @@
                                 {
                                 	?>
                                 	<div style="text-align: center">
-                                		<h3>AUTO TROVATA! CLICCA SU <a href="parcoauto.php">PARCO AUTO</a></h3>
+                                		<h3>Auto trovata! Clicca su <a href="parcoauto.php">Parco Auto</a></h3>
                                 	</div>
                                 	<?
                                 }
