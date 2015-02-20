@@ -8,8 +8,6 @@
         	<link rel="shortcut icon" href="img/icona.ico">
 	</head>
 	
-    	<body bgcolor="#C0C0C0">
-    	
 	<br>
 	
 	<header>
@@ -26,7 +24,7 @@
 	<br>
 	<br>
 	
-	<div style="text-align: center">
+	<div style="text-align: center id="back">
 	
 		<form method="post" action="php/login.php">
 		
