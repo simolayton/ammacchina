@@ -24,9 +24,7 @@
                         <img src="../../img/1500.png" alt="" width="600" height="250"/>
                     </div>
                     
-                    <div style="text-align: center" id="top">
-                    	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
-		    
+                <div style="text-align: center" id="top">
 
 		<div style="text-align: center" id="menu">
                     <ul>
@@ -38,9 +36,7 @@
                     </ul>
                 </div>
 		</div>
-		    
-		    
-		    
+
                 </header>
                 
                 <div style="text-align: center">
@@ -64,57 +60,41 @@
             	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata' OR stato='Auto nuova'") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
                 ?>
-                
-		
-			
-                
-                
-            <?php
-            while($row = mysql_fetch_object($queryvis))
-            {
-            ?>
-            
-            
 
-         
-             <br>
+            	<?php
+            	while($row = mysql_fetch_object($queryvis))
+            	{
+            	?>
+
+             	<br>
 
                    
-                   <div style="text-align: center">
+                <div style="text-align: center">
                    
-                 	<img src="../../img/pauto.png" width="100" height="70" alt="">
+                <img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                        <?echo"$row->marca";?>
-                        
-                        <?echo"$row->modello";?>,
-                        
-                        <?echo"$row->anno";?>,
-                        
-                        <?echo"$row->stato";?>, 
-                        
-                        colore : <?echo"$row->colore";?>,
-                        
-                        <?echo"$row->alimentazione";?>, 
+                <?echo"$row->marca";?>
+                <?echo"$row->modello";?>,
+                <?echo"$row->anno";?>,
+                <?echo"$row->stato";?>, 
+                colore : <?echo"$row->colore";?>,
+                <?echo"$row->alimentazione";?>, 
+                chilometri : <?echo"$row->chilometri";?>,
+                <b>PREZZO : </b><?echo"$row->prezzo";?>
+                <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a></td>
 
-                        chilometri : <?echo"$row->chilometri";?>,
-                        
-                        <b>PREZZO : </b><?echo"$row->prezzo";?>
-                        
-                        <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a></td>
-
-                 </div> 
-              <?php
-                            }
+        </div> 
+                
+              	<?php
+                }
                             
-                            if(isset($_GET["rimuovi"]))
-                            {
-                                $idauto = $_GET["rimuovi"];
-				$querypres = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
-                            }
-			?>
-
-                
-                
+                if(isset($_GET["rimuovi"]))
+                {
+                $idauto = $_GET["rimuovi"];
+		$querypres = mysql_query("DELETE FROM cars WHERE id='$idauto'") or die('Query non riuscita'.mysql_error());
+                }
+		?>
+ 
 	<br>
 	<br>
                 
