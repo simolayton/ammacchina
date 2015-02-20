@@ -24,7 +24,7 @@
 	<br>
 	<br>
 	
-	<div style="text-align: center id="back">
+	<div style="text-align: center" id="back">
 	
 		<form method="post" action="php/login.php">
 		
