@@ -23,9 +23,7 @@
                         <img src="../../img/1500.png" alt="" width="600" height="250"/>
                     </div>
                     
-                    <div style="text-align: center" id="top">
-                    	<!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
-		    
+                <div style="text-align: center" id="top">
 
 		<div style="text-align: center" id="menu">
                     <ul>
@@ -64,39 +62,34 @@
                                 $_SESSION["chilometri"] = $_POST["chilometri"];
                                 $wadd = "WHERE stato ='Auto usata'";
                                 if($_SESSION["marca"] !="")
-                                    $wadd .= " AND marca ='".$_SESSION["marca"]."'";
+                                    $aux .= " AND marca ='".$_SESSION["marca"]."'";
                                 if($_SESSION["modello"] !="")
-                                    $wadd .= " AND modello ='".$_SESSION["modello"]."'";
+                                    $aux .= " AND modello ='".$_SESSION["modello"]."'";
                                 if($_SESSION["anno"] !="")
-                                    $wadd .= " AND anno >='".$_SESSION["anno"]."'";
+                                    $aux .= " AND anno >='".$_SESSION["anno"]."'";
                                 if($_SESSION["alimentazione"] !="")
-                                    $wadd .= " AND alimentazione ='".$_SESSION["alimentazione"]."'";
+                                    $aux .= " AND alimentazione ='".$_SESSION["alimentazione"]."'";
                                 if($_SESSION["prezzo"] !="")
-                                    $wadd .= " AND prezzo <='".$_SESSION["prezzo"]."'";
+                                    $aux .= " AND prezzo <='".$_SESSION["prezzo"]."'";
                                 if($_SESSION["chilometri"] !="")
-                                    $wadd .= " AND chilometri <='".$_SESSION["chilometri"]."'";
-                                $queryvis = mysql_query("SELECT * FROM cars $wadd") or die("query non riuscita".mysql_error());
+                                    $aux .= " AND chilometri <='".$_SESSION["chilometri"]."'";
+                                $queryvis = mysql_query("SELECT * FROM cars $aux") or die("query non riuscita".mysql_error());
+                                
                                 if(mysql_num_rows($queryvis)==0)
                                 {
                                 ?>
                                 	<div style="text-align: center">
-                                	
-                                		<h3>NESSUN RISULTATO.</h3>
-                                	
+                                		<h3>Attenzione : Nessun risultato trovato.</h3>
                                 	</div>
-
                                 <?
                                 }
                                 else if(mysql_num_rows($queryvis)!=0)
                                 {
                                 	?>
                                 	<div style="text-align: center">
-                                	
-                                		<h3>AUTO TROVATA! CLICCA SU <a href="parcoauto.php">PARCO AUTO</a></h3>
-                                	
+                                		<h3>Auto trovata! Clicca su <a href="parcoauto.php">Parco Auto</a></h3>
                                 	</div>
                                 	<?
-	
                                 }
                                 }
                                 
@@ -107,28 +100,20 @@
 		<h3>Ricerca la tua auto:</h3>
 		
 		<form action="ricerca.php?ricercaauto" method="post" id="form-login">
-                
-                <br>Marca: <input type="text" name="marca"><br>
- 
-                <br>Modello:<input type="text" name="modello"><br>
-
-                <br>Anno:<input type="number" name="anno" min="1930" max="2015"><br>
-
-                <br>Alimentazione:
-                                            <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
-                                            <input type="radio" name="alimentazione" value="Diesel">Diesel
-                                            <input type="radio" name="alimentazione" value="Gas">Gas
-
-                <br><br>Prezzo:<input type="number" name="prezzo" min="0"><br>
-
-                <br>Chilometri:<input type="number" name="chilometri" min="0"><br>
-
-                <br><input type="submit" value="Cerca" id="button"><br>
-
+                	<br>Marca: <input type="text" name="marca"><br>
+                	<br>Modello:<input type="text" name="modello"><br>
+                	<br>Anno:<input type="number" name="anno" min="1930" max="2015"><br>
+                	<br>Alimentazione:
+                	                            <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
+                	                            <input type="radio" name="alimentazione" value="Diesel">Diesel
+                	                            <input type="radio" name="alimentazione" value="Gas">Gas
+	
+                	<br><br>Prezzo:<input type="number" name="prezzo" min="0"><br>
+                	<br>Chilometri:<input type="number" name="chilometri" min="0"><br>
+                	<br><input type="submit" value="Cerca" id="button"><br>
                 </form>
 
 		</div>
-
 
 	<br>
 	<br>
