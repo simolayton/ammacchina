@@ -60,7 +60,7 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	$queryvis = mysql_query("SELECT * FROM table WHERE id>1") or die("query non riuscita".mysql_error());
+            	$queryvis = mysql_query("SELECT * FROM table") or die("query non riuscita".mysql_error());
             	$row = mysql_fetch_object($queryvis);
                 ?>
                 
