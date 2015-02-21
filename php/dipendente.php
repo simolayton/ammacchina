@@ -48,9 +48,7 @@
                 <div style="text-align: center">
 
 		<!-- <form action=""> -->
-			<textarea name="textbox" cols="95" rows="5">
-			
-			</textarea>
+			<textarea name="textbox" cols="95" rows="5"></textarea>
 			<br>
 			<input type="submit" value="Salva" id="button">
 			<input type="button" value="Clear" id="button" onclick='clear();'/>
