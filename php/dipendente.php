@@ -48,10 +48,10 @@
                 <div style="text-align: center">
 
 		<!-- <form action=""> -->
-			<textarea name="textbox" cols="95" rows="5"></textarea>
+			<textarea name="textbox" cols="95" rows="5">Chiamare X al numero N, Prenotare tagliando X, Leggere nuova normativa autoveicoli, ecc</textarea>
 			<br>
 			<input type="submit" value="Salva" id="button">
-			<input type="button" value="Clear" id="button" onclick='clear();'/>
+			<input type="button" value="Cancella" id="button" onclick='clear();'/>
 		<!-- </form> -->
 		
 		<br>
