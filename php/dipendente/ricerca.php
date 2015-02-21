@@ -79,7 +79,7 @@
                                 {
                                 ?>
                                 	<div style="text-align: center">
-                                		<h3>Attenzione : Nessun risultato trovato.</h3>
+                                		<h3><font color="#FF0000">Attenzione : Nessun risultato trovato.</font></h3>
                                 	</div>
                                 <?
                                 }
