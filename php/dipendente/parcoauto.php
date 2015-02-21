@@ -81,7 +81,7 @@
                 <?echo"$row->alimentazione";?>, 
                 chilometri : <?echo"$row->chilometri";?>,
                 <b>PREZZO : </b><?echo"$row->prezzo";?>
-                <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a></td>
+                <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a>
 
         </div> 
                 
