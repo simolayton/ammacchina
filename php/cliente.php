@@ -15,6 +15,9 @@
         
 	<body>
 	
+	<div style="text-align: center" id="top">
+        <!-- <button id="button" type="submit" name="cmd"  value="home">Home</button> -->
+		    
         <div id="page">
                 
                 <header>
