@@ -104,8 +104,8 @@
                 	<br>Modello:<input type="text" name="modello"><br>
                 	<br>Anno:<input type="number" name="anno" min="1930" max="2015"><br>
                 	<br>Alimentazione:
-                	                            <input type="radio" name="alimentazione" value="Benzina">Benzina
-                	                            <input type="radio" name="alimentazione" value="Diesel" checked>Diesel
+                	                            <input type="radio" name="alimentazione" value="Benzina" checked>Benzina
+                	                            <input type="radio" name="alimentazione" value="Diesel">Diesel
                 	                            <input type="radio" name="alimentazione" value="Gas">Gas
                 	                            <input type="radio" name="alimentazione" value="Elettrica">Elettrica
 	
