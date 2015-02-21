@@ -48,7 +48,7 @@
                 <div style="text-align: center">
 
 		<!-- <form action=""> -->
-			<textarea name="textbox" cols="50" rows="5">
+			<textarea name="textbox" cols="150" rows="5">
 				Zona promemoria
 			</textarea>
 			<br>
