@@ -58,14 +58,14 @@
                 ?>
                 
                  <?php
-            while($row = mysql_fetch_object($queryvis))
-            {
-            ?>
+            	while($row = mysql_fetch_object($queryvis))
+            	{
+            	?>
             
-             <br>
+        	<br>
 
                    
-                   <div style="text-align: center">
+                <div style="text-align: center">
                   
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
