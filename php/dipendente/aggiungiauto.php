@@ -68,7 +68,7 @@
                                 {
                                 ?>
                                 	<div style="text-align: center">
-                                		<h3>ERRORE : AUTO NON INSERITA.</h3>
+                                		<h3><font color="#FF0000">ERRORE : AUTO NON INSERITA.</font></h3>
                                 	</div>
                                 <?
                                 }
@@ -76,7 +76,7 @@
                                 {
                                 	?>
                                 	<div style="text-align: center">
-                                		<h3>AUTO INSERITA CORRETTAMENTE!</a></h3>
+                                		<h3><font color="#41A317">AUTO INSERITA CORRETTAMENTE!</font></h3>
                                 	</div>
                                 	<?
                                 }
