@@ -57,12 +57,12 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata' OR stato='Auto nuova'") or die("query non riuscita".mysql_error());
-            	$row = mysql_fetch_object($queryvis);
+            	$query = mysql_query("SELECT * FROM cars WHERE stato='Auto usata' OR stato='Auto nuova'") or die("query non riuscita".mysql_error());
+            	$vis = mysql_fetch_object($query);
                 ?>
 
             	<?php
-            	while($row = mysql_fetch_object($queryvis))
+            	while($vis = mysql_fetch_object($query))
             	{
             	?>
 
@@ -73,15 +73,15 @@
                    
                 <img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                <?echo"$row->marca";?>
-                <?echo"$row->modello";?>,
-                <?echo"$row->anno";?>,
-                <?echo"$row->stato";?>, 
-                colore : <?echo"$row->colore";?>,
-                <?echo"$row->alimentazione";?>, 
-                chilometri : <?echo"$row->chilometri";?>,
-                <b>PREZZO : </b><?echo"$row->prezzo";?>
-                <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Elimina auto</a>
+                <?echo"$vis->marca";?>
+                <?echo"$vis->modello";?>,
+                <?echo"$vis->anno";?>,
+                <?echo"$vis->stato";?>, 
+                colore : <?echo"$vis->colore";?>,
+                <?echo"$vis->alimentazione";?>, 
+                chilometri : <?echo"$vis->chilometri";?>,
+                <b>PREZZO : </b><?echo"$vis->prezzo";?>
+                <a href="parcoauto.php?rimuovi=<?echo $vis->id?>" id="button">Elimina auto</a>
 
         </div> 
                 
