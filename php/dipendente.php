@@ -16,7 +16,7 @@
         
 	<body>
 	
-        <div style="text-align: center" id="page">
+        <div id="page">>
                     
                 <header>
                 
