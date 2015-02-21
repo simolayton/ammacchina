@@ -8,11 +8,9 @@
         	<link rel="shortcut icon" href="img/icona.ico">
 	</head>
 	
-	<body>
+	<body bgcolor="#C0C0C0">
 	
 	<br>
-	
-	<div id="back">
 	
 	<header>
         	<div style="text-align: center">
