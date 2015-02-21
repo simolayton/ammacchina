@@ -50,8 +50,8 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata'") or die("query non riuscita".mysql_error());
-            	$row = mysql_fetch_object($queryvis);
+            	$query = mysql_query("SELECT * FROM cars WHERE stato='Auto usata'") or die("query non riuscita".mysql_error());
+            	$vis = mysql_fetch_object($query);
                 if(isset($_GET["ricercaauto"]))
 		{
                                 $_SESSION["marca"] = $_POST["marca"];
@@ -74,7 +74,7 @@
                                 if($_SESSION["chilometri"] !="")
                                     $aux .= " AND chilometri <='".$_SESSION["chilometri"]."'";
                                 $queryvis = mysql_query("SELECT * FROM cars $aux") or die("query non riuscita".mysql_error());
-                                if(mysql_num_rows($queryvis)==0)
+                                if(mysql_num_rows($query)==0)
                                 {
                                 ?>
                                 	<div style="text-align: center">
@@ -82,7 +82,7 @@
                                 	</div>
                                 <?
                                 }
-                                else if(mysql_num_rows($queryvis)!=0)
+                                else if(mysql_num_rows($query)!=0)
                                 {
                                 	?>
                                 	<div style="text-align: center">
