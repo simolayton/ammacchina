@@ -41,7 +41,7 @@
                 
                 <div style="text-align: center">
                 
-                       <h3>Home - promemoria:</h3>
+                       <h3>Home</h3>
                        
                 </div>
                 
@@ -49,10 +49,10 @@
 
 		<!-- <form action=""> -->
 			<textarea name="textbox" cols="95" rows="5">
-				Zona promemoria
+			
 			</textarea>
 			<br>
-			<input type="submit" value="Salva" id="button">
+			<input type="submit" value="Salva promemoria!" id="button">
 		<!-- </form> -->
 		
 		<br>
