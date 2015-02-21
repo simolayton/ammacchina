@@ -86,7 +86,7 @@
                                 {
                                 	?>
                                 	<div style="text-align: center">
-                                		<h3>Auto trovata! Clicca su <a href="parcoauto.php">Parco Auto</a></h3>
+                                		<h3><font color="#4CC417">Auto trovata! Clicca su <a href="parcoauto.php">Parco Auto</a></font></h3>
                                 	</div>
                                 	<?
                                 }
