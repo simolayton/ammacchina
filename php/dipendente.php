@@ -45,42 +45,17 @@
                        
                 </div>
                 
-                <?php
-                $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
-                
-                if(!$connessione_al_server)
-                {
-                	die("Errore: connessione non riuscita".mysql_error());
-            	}
-            	$db_selected = mysql_select_db("amm14_mameliSimone", $connessione_al_server);
-            	if(!$db_selected)
-            	{
-                	die("Errore: selezione del database errata ".mysql_error());
-            	}
-            	$queryvis = mysql_query("SELECT label FROM table") or die("query non riuscita".mysql_error());
-            	$row = mysql_fetch_object($queryvis);
-                ?>
-
-        	<?php
-        	while($row = mysql_fetch_object($queryvis))
-            	{
-            	?>
-
-             	<br>
-
                 <div style="text-align: center">
-                   
-                <?echo"$row->label";?>
-                        
-		</div> 
-		
-              	<?php
-                }
-		?>
 
-		<br>	
-		<br>
-		<br>
+		<!-- <form action=""> -->
+			<textarea name="textbox" cols="450" rows="5">
+				Zona promemoria
+			</textarea>
+			<br>
+			<input type="submit" />
+		<!-- </form> -->
+
+		</div>
                 
         	<div id="footer">
         
