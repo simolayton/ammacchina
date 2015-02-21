@@ -48,12 +48,17 @@
                 <div style="text-align: center">
 
 		<!-- <form action=""> -->
-			<textarea name="textbox" cols="150" rows="5">
+			<textarea name="textbox" cols="100" rows="5">
 				Zona promemoria
 			</textarea>
 			<br>
-			<input type="submit" />
+			<input type="submit" value="Salva" id="button">
 		<!-- </form> -->
+		
+		<br>
+                <br>
+                <br>
+                <br>
 
 		</div>
                 
