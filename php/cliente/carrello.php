@@ -53,12 +53,12 @@
             	{
                 	die("Errore: selezione del database errata ".mysql_error());
             	}
-            	$queryvis = mysql_query("SELECT * FROM cars,cart WHERE id=idauto") or die("query non riuscita".mysql_error());
-            	$row = mysql_fetch_object($queryvis);
+            	$query = mysql_query("SELECT * FROM cars,cart WHERE id=idauto") or die("query non riuscita".mysql_error());
+            	$vis = mysql_fetch_object($query);
                 ?>
                 
                  <?php
-            	while($row = mysql_fetch_object($queryvis))
+            	while($vis = mysql_fetch_object($query))
             	{
             	?>
             
@@ -70,25 +70,25 @@
                    
                  	<img src="../../img/pauto.png" width="100" height="70" alt="">
                    
-                        <?echo"$row->marca";?>
+                        <?echo"$vis->marca";?>
                         
-                        <?echo"$row->modello";?>,
+                        <?echo"$vis->modello";?>,
                         
-                        <?echo"$row->anno";?>,
+                        <?echo"$vis->anno";?>,
                         
-                        <?echo"$row->stato";?>, 
+                        <?echo"$vis->stato";?>, 
                         
-                        colore : <?echo"$row->colore";?>,
+                        colore : <?echo"$vis->colore";?>,
                         
-                        <?echo"$row->alimentazione";?>, 
+                        <?echo"$vis->alimentazione";?>, 
 
-                        chilometri : <?echo"$row->chilometri";?>,
+                        chilometri : <?echo"$vis->chilometri";?>,
                         
-                        <b>PREZZO : </b><?echo"$row->prezzo";?>
+                        <b>PREZZO : </b><?echo"$vis->prezzo";?>
                         
-                        <a href="parcoauto.php?rimuovi=<?echo $row->id?>" id="button">Rimuovi dal carrello</a>
+                        <a href="parcoauto.php?rimuovi=<?echo $vis->id?>" id="button">Rimuovi dal carrello</a>
 
-			<a href="carrello.php?conferma=<?echo $row->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
+			<a href="carrello.php?conferma=<?echo $vis->id?>" onclick="window.open('https://www.paypal.com/it/webapps/mpp/home')" id="button" style="background-color:green">Conferma carrello</a>
 
                         </div> 
 
