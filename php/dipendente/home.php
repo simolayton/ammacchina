@@ -37,32 +37,28 @@
 		</div>
 
                 </header>
-                
-                <?php
-                $connessione_al_server = mysql_connect("localhost","mameliSimone","macaco861");
-                
-                if(!$connessione_al_server)
-                {
-                	die("Errore: connessione non riuscita".mysql_error());
-            	}
-            	$db_selected = mysql_select_db("amm14_mameliSimone", $connessione_al_server);
-            	if(!$db_selected)
-            	{
-                	die("Errore: selezione del database errata ".mysql_error());
-            	}
-            	$queryvis = mysql_query("SELECT * FROM cars WHERE stato='Auto usata' OR stato='Auto nuova'") or die("query non riuscita".mysql_error());
-            	$row = mysql_fetch_object($queryvis);
-                ?>
 
-            	<?php
-        	while($row = mysql_fetch_object($queryvis))
-        	{
-            	?>
-            	
+                <div style="text-align: center">
+                
+                       <h3>Home</h3>
+                       
+                </div>
+                
+                <div style="text-align: center">
 
-            	<?
-        	}
-            	?>
+		<!-- <form action=""> -->
+			<textarea name="textbox" cols="95" rows="5">Chiamare X al numero N, Prenotare tagliando X, Leggere nuova normativa autoveicoli, ecc</textarea>
+			<br>
+			<input type="submit" value="Salva" id="button">
+			<input type="button" value="Cancella" id="button" onclick='clear();'/>
+		<!-- </form> -->
+		
+		<br>
+                <br>
+                <br>
+                <br>
+
+		</div>
 
         <br>
              	
