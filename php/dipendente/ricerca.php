@@ -60,7 +60,7 @@
                                 $_SESSION["alimentazione"] = $_POST["alimentazione"];
                                 $_SESSION["prezzo"] = $_POST["prezzo"];
                                 $_SESSION["chilometri"] = $_POST["chilometri"];
-                                $wadd = "WHERE stato ='Auto usata'";
+                                $aux = "WHERE stato ='Auto usata'";
                                 if($_SESSION["marca"] !="")
                                     $aux .= " AND marca ='".$_SESSION["marca"]."'";
                                 if($_SESSION["modello"] !="")
