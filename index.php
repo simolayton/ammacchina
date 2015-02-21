@@ -50,8 +50,6 @@
 		<a href="README.md">Accesso al progetto</a>
 	</div>
 	
-	</div>
-	
 	</body>
 	
 </html>
