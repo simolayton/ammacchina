@@ -53,6 +53,7 @@
 			</textarea>
 			<br>
 			<input type="submit" value="Salva" id="button">
+			<input type="button" value="Clear" id="button" onclick='clear();'/>
 		<!-- </form> -->
 		
 		<br>
