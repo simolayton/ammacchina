@@ -16,7 +16,7 @@
         
 	<body>
 	
-        <div id="page">>
+        <div id="page">
                     
                 <header>
                 
