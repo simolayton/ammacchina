@@ -64,18 +64,6 @@
              	
 	<div style="text-align: center">
 	</div>
-
-	<br>
-	<br>
-	<br>	
-	<br>
-	<br>	
-	<br>
-	<br>	
-	<br>
-	<br>	
-	<br>
-	<br>
                 
         <div id="footer">
         
