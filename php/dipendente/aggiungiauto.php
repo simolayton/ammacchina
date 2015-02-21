@@ -76,7 +76,7 @@
                                 {
                                 	?>
                                 	<div style="text-align: center">
-                                		<h3><font color="#00FF00">AUTO INSERITA CORRETTAMENTE!</font></h3>
+                                		<h3><font color="#4CC417">AUTO INSERITA CORRETTAMENTE!</font></h3>
                                 	</div>
                                 	<?
                                 }
