@@ -52,7 +52,7 @@
 			
 			</textarea>
 			<br>
-			<input type="submit" value="Salva promemoria!" id="button">
+			<input type="submit" value="Salva" id="button">
 		<!-- </form> -->
 		
 		<br>
