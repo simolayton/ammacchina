@@ -38,11 +38,11 @@ Sito accettato dal W3C CSS  : V
 CREDENZIALI
 
 Dipendente
-  username  : dipuser
-  passoword : dippass
+  username  : -
+  passoword : -
   
 Cliente
-  username  : clientuser
-  passoword : clientpass
+  username  : -
+  passoword : -
 
 ==================================================================================================================
